@@ -1,10 +1,17 @@
 import { Navbar } from './Navbar';
 
-export default function MainLayout({ children }: { children: React.ReactNode }) {
+type MainLayoutProps = {
+  children: React.ReactNode;
+  /** Contenido a ancho completo (ej. Hero), se renderiza fuera del container */
+  fullWidthContent?: React.ReactNode;
+};
+
+export default function MainLayout({ children, fullWidthContent }: MainLayoutProps) {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Navbar />
-      <main className="container mx-auto mt-8 px-4">{children}</main>
+      {fullWidthContent}
+      <main className="container">{children}</main>
     </div>
   );
 }

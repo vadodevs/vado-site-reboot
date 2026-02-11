@@ -15,7 +15,8 @@
   },
   "home": {
     "title": "Vado | Home",
-    "heading": "Hello World"
+    "heading": "Hello World",
+    "heroSubheading": "We turn ideas into digital solutions"
   },
   "notFound": {
     "title": "404 - Page not found | Vado",

@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import { VadoLogo } from '@/assets/vado-logo';
 import { PageTitle } from '@/components/PageTitle';
+import { Hero } from '@/components/home/Hero';
 import MainLayout from '@/components/layout/MainLayout';
 
 export default function Home() {
@@ -9,10 +9,7 @@ export default function Home() {
   return (
     <>
       <PageTitle title={t('home.title')} />
-      <MainLayout>
-        <h1 className="text-xl">{t('home.heading')}</h1>
-        <VadoLogo />
-      </MainLayout>
+      <MainLayout fullWidthContent={<Hero />}>{null}</MainLayout>
     </>
   );
 }
