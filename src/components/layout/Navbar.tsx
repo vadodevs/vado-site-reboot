@@ -83,8 +83,10 @@ function LangSwitcher({ className }: { className?: string }) {
       <Link
         href={enPath}
         className={cn(
-          'px-2 py-1 rounded font-medium transition-colors',
-          locale === 'en' ? 'text-primary font-semibold' : 'text-muted-foreground hover:text-foreground',
+          'rounded px-2 py-1 font-medium transition-colors',
+          locale === 'en'
+            ? 'text-primary font-semibold'
+            : 'text-muted-foreground hover:text-foreground',
         )}
       >
         EN
@@ -93,8 +95,10 @@ function LangSwitcher({ className }: { className?: string }) {
       <Link
         href={esPath}
         className={cn(
-          'px-2 py-1 rounded font-medium transition-colors',
-          locale === 'es' ? 'text-primary font-semibold' : 'text-muted-foreground hover:text-foreground',
+          'rounded px-2 py-1 font-medium transition-colors',
+          locale === 'es'
+            ? 'text-primary font-semibold'
+            : 'text-muted-foreground hover:text-foreground',
         )}
       >
         ES
@@ -195,10 +199,10 @@ export function Navbar() {
   const isHomeActive = location === homePath || location === homePath + '/';
 
   return (
-    <header className="bg-background sticky top-0 z-40 w-full border-b p-2">
+    <header className="bg-background sticky top-0 z-40 w-full border-b p-3">
       <CenterContainer className="flex h-14 items-center justify-between">
         <Link href={homePath} className="flex shrink-0 items-center">
-          <VadoLogo className="h-8 w-auto" />
+          <VadoLogo className="h-10 w-auto" />
         </Link>
 
         <div className="flex items-center gap-2 md:hidden">

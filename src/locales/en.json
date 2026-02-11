@@ -16,7 +16,11 @@
   "home": {
     "title": "Vado | Home",
     "heading": "Hello World",
-    "heroSubheading": "We turn ideas into digital solutions"
+    "heroTitleLine1": "YOUR ALLY IN",
+    "heroTitleLine2": "DIGITAL INNOVATION",
+    "heroTagline": "Choose Vado and turn your ideas into digital solutions",
+    "heroSubheading": "We turn ideas into digital solutions",
+    "heroCta": "Contact us"
   },
   "notFound": {
     "title": "404 - Page not found | Vado",
