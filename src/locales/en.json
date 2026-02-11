@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "consultancy": "Consultancy",
+    "development": "Development",
+    "ourWork": "Our work",
+    "company": "Company",
+    "aboutUs": "About us",
+    "contact": "Contact",
+    "contactUs": "Contact us",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "home": {
+    "title": "Vado | Home",
+    "heading": "Hello World"
+  },
+  "notFound": {
+    "title": "404 - Page not found | Vado",
+    "heading": "Page not found",
+    "description": "404 — This route does not exist"
+  }
+}

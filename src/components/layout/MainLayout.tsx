@@ -1,16 +1,10 @@
-import { Link } from 'wouter'
+import { Navbar } from './Navbar';
 
 export default function MainLayout({ children }: { children: React.ReactNode }) {
-    return (
-        <div>
-            <header className="bg-white shadow-md py-4">
-                <nav className="container mx-auto flex gap-4">
-                    <Link href="/">Inicio</Link>
-                    <Link href="/otra">Otra página</Link>
-                </nav>
-            </header>
-
-            <main className="container mx-auto mt-8">{children}</main>
-        </div>
-    )
+  return (
+    <div>
+      <Navbar />
+      <main className="container mx-auto mt-8 px-4">{children}</main>
+    </div>
+  );
 }

@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "consultancy": "Consultoría",
+    "development": "Desarrollo",
+    "ourWork": "Nuestro trabajo",
+    "company": "Compañía",
+    "aboutUs": "Nosotros",
+    "contact": "Contacto",
+    "contactUs": "Contáctanos",
+    "menu": "Menú",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "home": {
+    "title": "Vado | Home",
+    "heading": "Hola Mundo"
+  },
+  "notFound": {
+    "title": "404 - Página no encontrada | Vado",
+    "heading": "Página no encontrada",
+    "description": "404 — La ruta no existe"
+  }
+}
