@@ -8,10 +8,12 @@ type MainLayoutProps = {
 
 export default function MainLayout({ children, fullWidthContent }: MainLayoutProps) {
   return (
-    <div className="overflow-x-hidden">
+    <div>
       <Navbar />
-      {fullWidthContent}
-      <main className="container">{children}</main>
+      <div className="overflow-x-hidden">
+        {fullWidthContent}
+        <main className="container">{children}</main>
+      </div>
     </div>
   );
 }

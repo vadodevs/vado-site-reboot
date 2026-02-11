@@ -35,7 +35,7 @@ export function Hero() {
         onSwiper={onSwiper}
       >
         <SwiperSlide className="h-full! w-full!">
-          <div className="relative h-full w-full">
+          <div className="relative h-screen w-full">
             <video
               ref={videoRef}
               src="/hero/hero-slide.mp4"
