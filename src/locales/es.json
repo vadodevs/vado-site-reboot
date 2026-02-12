@@ -26,7 +26,15 @@
       "label": "Desarrollo de productos digitales",
       "titlePart1": "Descubre como",
       "titlePart2": "digitalizar tus procesos",
-      "description": "Optimizamos procesos, impulsamos la innovación y maximizamos tu retorno de inversión."
+      "description": "Optimizamos procesos, impulsamos la innovación y maximizamos tu retorno de inversión.",
+      "card1Title": "Soluciones Personalizadas y Soporte Continuo",
+      "card1Description": "Nuestros productos a la medida están diseñados para impulsar la competitividad en tu empresa. Nos especializamos en hacer tus procesos más simples y eficientes.",
+      "card2Title": "Soluciones Listas para Usarse y Generar Impacto",
+      "card2Description": "Nuestro software personalizado está diseñado para crecer e integrarse contigo. Simplificamos tus procesos y acompañamos la evolución de tu negocio con soluciones escalables y eficientes listas para trabajar.",
+      "card3Title": "Tecnología Innovadora con Protección Garantizada",
+      "card3Description": "Software de alto rendimiento con seguridad incorporada para proteger tu negocio.",
+      "moreInfo": "Más Información",
+      "bgAlt": "Fondo decorativo"
     }
   },
   "notFound": {

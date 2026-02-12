@@ -26,7 +26,15 @@
       "label": "Digital product development",
       "titlePart1": "Discover how to",
       "titlePart2": "digitize your processes",
-      "description": "We optimize processes, drive innovation and maximize your return on investment."
+      "description": "We optimize processes, drive innovation and maximize your return on investment.",
+      "card1Title": "Personalized Solutions and Continuous Support",
+      "card1Description": "Our custom products are designed to boost your company's competitiveness. We specialize in making your processes simpler and more efficient.",
+      "card2Title": "Ready-to-Use Solutions That Generate Impact",
+      "card2Description": "Our personalized software is designed to grow and integrate with you. We simplify your processes and support the evolution of your business with scalable, efficient solutions ready to work.",
+      "card3Title": "Innovative Technology with Guaranteed Protection",
+      "card3Description": "High-performance software with built-in security to protect your business.",
+      "moreInfo": "More Information",
+      "bgAlt": "Decorative background"
     }
   },
   "notFound": {

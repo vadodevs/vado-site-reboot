@@ -9,7 +9,7 @@ export function CenterContainer({ children, className }: CenterContainerProps) {
   return (
     <div
       className={cn(
-        'w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8',
+        'w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8',
         className
       )}
     >
