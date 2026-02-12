@@ -21,7 +21,13 @@
     "heroTagline": "Elige a Vado y convierte tus ideas en soluciones digitales",
     "heroSubheading": "Transformamos ideas en soluciones digitales",
     "heroCta": "Contáctanos",
-    "trustedBrandsTitle": "Empresas que confian en Vado"
+    "trustedBrandsTitle": "Empresas que confian en Vado",
+    "digitalProducts": {
+      "label": "Desarrollo de productos digitales",
+      "titlePart1": "Descubre como",
+      "titlePart2": "digitalizar tus procesos",
+      "description": "Optimizamos procesos, impulsamos la innovación y maximizamos tu retorno de inversión."
+    }
   },
   "notFound": {
     "title": "404 - Página no encontrada | Vado",
