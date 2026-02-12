@@ -3,7 +3,6 @@ import { PhoneMockup } from '@/components/ui/phone-mockup';
 import { CenterContainer } from '../layout/CenterContainer';
 
 type DigitalProductsSectionProps = {
-  /** Imagen a mostrar dentro del mockup del smartphone (opcional) */
   mockupImageSrc?: string;
   mockupImageAlt?: string;
 };
@@ -16,7 +15,6 @@ export function DigitalProductsSection({
 
   return (
     <section className="relative overflow-hidden">
-      {/* Imagen decorativa fija a la derecha */}
       <img
         src="/backgrounds/bg-white-blue.png"
         alt=""
@@ -25,7 +23,6 @@ export function DigitalProductsSection({
       />
       <CenterContainer>
         <div className="relative flex flex-col items-center gap-4 py-8 lg:mr-auto lg:ml-6 lg:grid lg:max-w-5xl lg:grid-cols-[auto_1fr] lg:items-center lg:gap-20 lg:py-10">
-          {/* Mockup: segundo en mobile, primero en desktop — columna solo al ancho del teléfono */}
           <div className="order-2 flex items-center justify-center lg:order-1 lg:justify-end">
             <PhoneMockup
               className="w-[min(240px,65vw)]"
@@ -34,7 +31,6 @@ export function DigitalProductsSection({
             />
           </div>
 
-          {/* Texto primero en mobile, derecha en desktop — pegado al mockup */}
           <div className="relative order-1 flex items-center px-4 lg:order-2 lg:min-w-0 lg:pr-8 lg:pl-0">
             <div className="">
               <p className="text-muted-foreground mb-2 text-xs font-medium tracking-wider uppercase md:text-sm">
