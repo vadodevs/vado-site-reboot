@@ -1,6 +1,6 @@
 import { Link } from 'wouter';
 import { useTranslation } from 'react-i18next';
-import { CenterContainer } from '../layout/CenterContainer';
+import { CenterContainer } from '../CenterContainer';
 import { FeatureCard } from './FeatureCard';
 import { PhoneMockup } from '@/components/ui/phone-mockup';
 import { Button } from '@/components/ui/button';
