@@ -18,7 +18,7 @@ const BRAND_LOGOS = [
   { src: '/brands/sageful-ai.svg', alt: 'Sageful.ai' },
 ] as const;
 
-const LOGO_GAP_CLASS = 'gap-16';
+const LOGO_GAP_CLASS = 'gap-14';
 
 export function TrustedBrands() {
   const { t } = useTranslation();
@@ -32,17 +32,17 @@ export function TrustedBrands() {
       </CenterContainer>
 
       <div className="w-full">
-        <Marquee className="w-full" gap={LOGO_GAP_CLASS} duration={40} pauseOnHover>
+        <Marquee className="w-full" gap={LOGO_GAP_CLASS} duration={50} pauseOnHover>
           {BRAND_LOGOS.map((brand, index) => (
             <div
               key={`${brand.src}-${index}`}
               className="flex shrink-0 items-center justify-center grayscale transition-opacity hover:opacity-80"
-              style={{ minWidth: 'min(180px, 25vw)' }}
+              style={{ width: 'auto' }}
             >
               <img
                 src={brand.src}
                 alt={brand.alt}
-                className="h-10 w-auto object-contain md:h-12"
+                className="h-12 w-auto object-contain"
                 width={180}
                 height={48}
               />
