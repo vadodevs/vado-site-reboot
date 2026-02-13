@@ -292,7 +292,7 @@ export function Navbar() {
                   {t('nav.company')}
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="grid min-w-[10rem] gap-0.5 px-2 py-1">
+                  <ul className="grid min-w-40 gap-0.5 px-2 py-1">
                     {companiaPaths.map(({ path: p, labelKey }) => (
                       <li key={p}>
                         <NavigationMenuLink asChild>
