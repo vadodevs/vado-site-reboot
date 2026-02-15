@@ -31,13 +31,14 @@ import { cn } from '@/lib/utils';
 import { useLocale } from '@/hooks/useLocale';
 
 const serviciosPaths = [
-  { path: '/servicios/consultoria', labelKey: 'nav.consultancy' as const },
-  { path: '/servicios/desarrollo', labelKey: 'nav.development' as const },
+  { path: '/servicios/software-a-la-medida', labelKey: 'nav.customSoftware' as const },
+  { path: '/servicios/soluciones-ia', labelKey: 'nav.aiSolutions' as const },
+  { path: '/servicios/ampliacion-de-personal', labelKey: 'nav.staffAugmentation' as const },
 ];
 
 const companiaPaths = [
-  { path: '/compania/nosotros', labelKey: 'nav.aboutUs' as const },
-  { path: '/compania/contacto', labelKey: 'nav.contact' as const },
+  { path: '/compania/vado-insights', labelKey: 'nav.vadoInsights' as const },
+  { path: '/compania/cultura-y-talento', labelKey: 'nav.cultureAndTalent' as const },
 ];
 
 function NavLink({
@@ -205,7 +206,7 @@ export function Navbar() {
           <VadoLogo className="h-10 w-auto" />
         </Link>
 
-        <div className="flex items-center gap-2 md:hidden">
+        <div className="flex items-center gap-2 lg:hidden">
           <LangSwitcher className="shrink-0" />
           <Drawer open={drawerOpen} onOpenChange={setDrawerOpen} direction="right">
             <DrawerTrigger asChild>
@@ -239,7 +240,7 @@ export function Navbar() {
           </Drawer>
         </div>
 
-        <div className="hidden flex-1 items-center justify-end gap-1 md:flex">
+        <div className="hidden flex-1 items-center justify-end gap-1 lg:flex">
           <NavigationMenu viewport={false} className="max-w-none justify-end">
             <NavigationMenuList className="gap-1">
               <NavigationMenuItem>
@@ -261,7 +262,7 @@ export function Navbar() {
                   {t('nav.services')}
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="grid min-w-40 gap-0.5 px-2 py-1">
+                  <ul className="grid min-w-56 gap-0.5 px-2 py-1">
                     {serviciosPaths.map(({ path: p, labelKey }) => (
                       <li key={p}>
                         <NavigationMenuLink asChild>

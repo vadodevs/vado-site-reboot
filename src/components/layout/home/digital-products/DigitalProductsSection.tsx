@@ -1,7 +1,7 @@
 import { Link } from 'wouter';
 import { useTranslation } from 'react-i18next';
-import { CenterContainer } from '../CenterContainer';
-import { FeatureCard } from './FeatureCard';
+import { CenterContainer } from '@/components/layout/CenterContainer';
+import { FeatureCard } from '../FeatureCard';
 import { PhoneMockup } from '@/components/ui/phone-mockup';
 import { Button } from '@/components/ui/button';
 import { useLocale } from '@/hooks/useLocale';
@@ -23,21 +23,20 @@ export function DigitalProductsSection({
       <img
         src="/backgrounds/bg-white-blue.png"
         alt={t('home.digitalProducts.bgAlt')}
-        className="pointer-events-none absolute top-0 right-0 h-full w-auto object-cover object-right"
+        className="pointer-events-none absolute top-0 -right-20 w-auto object-cover object-right"
         aria-hidden
       />
       <CenterContainer>
         <div className="relative flex flex-col items-center gap-8 py-12 lg:gap-12 lg:py-16">
-          {/* Mockup + texto: dos columnas en desktop */}
-          <div className="relative flex w-full flex-col items-center gap-4 py-4 lg:mr-auto lg:ml-6 lg:grid lg:max-w-5xl lg:grid-cols-[auto_1fr] lg:items-center lg:gap-20 lg:py-6">
-            <div className="order-2 flex items-center justify-center lg:order-1 lg:justify-end">
+          <div className="relative flex w-full flex-col items-center gap-4 py-4 md:flex-row-reverse md:gap-8 lg:mr-auto lg:ml-6 lg:max-w-5xl lg:gap-20 lg:py-6">
+            <div className="flex items-center justify-center md:w-auto md:shrink-0">
               <PhoneMockup
-                className="w-[min(240px,65vw)]"
+                className="w-[min(240px,65vw)] md:w-[280px]"
                 src={mockupImageSrc}
                 alt={mockupImageAlt}
               />
             </div>
-            <div className="relative order-1 flex items-center px-4 lg:order-2 lg:min-w-0 lg:pr-8 lg:pl-0">
+            <div className="relative flex w-full items-center px-4 md:flex-1 md:px-0 lg:pr-8">
               <div>
                 <p className="text-muted-foreground mb-2 text-xs font-medium tracking-wider uppercase md:text-sm">
                   {t('home.digitalProducts.label')}
@@ -53,7 +52,7 @@ export function DigitalProductsSection({
             </div>
           </div>
 
-          <div className="grid w-full gap-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             <FeatureCard
               iconSrc="/home-assets/card-digital/idea.svg"
               iconAlt={t('home.digitalProducts.card1Title')}

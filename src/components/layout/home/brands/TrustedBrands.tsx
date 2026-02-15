@@ -7,6 +7,7 @@ const BRAND_LOGOS = [
   { src: '/brands/ebm.svg', alt: 'EasyBoatManagement' },
   { src: '/brands/washapp.svg', alt: 'WashApp' },
   { src: '/brands/rumbo-altenio.svg', alt: 'Rumbo Alteño' },
+  { src: '/brands/sendero-logo.svg', alt: 'Sendero CRM' },
   { src: '/brands/maggiore.svg', alt: 'Maggiore Marketing' },
   { src: '/brands/cipreses.svg', alt: 'Criadero de los Cipreses' },
   { src: '/brands/digital-ranch.svg', alt: 'Digital Ranch' },
