@@ -16,6 +16,52 @@
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú"
   },
+  "ourWork": {
+    "hero": {
+      "titleLine1": "DEL RETO AL",
+      "titleLine2": "RESULTADO",
+      "tagline": "Conoce algunos de los proyectos que hemos desarrollado junto a nuestros clientes, donde combinamos tecnología, diseño y estrategia para lograr resultados reales.",
+      "cta": "Contáctanos"
+    },
+    "projects": {
+      "zenqur": {
+        "category": "Aplicación web",
+        "title": "ZenQR",
+        "subtitle": "Generador de Códigos",
+        "description": "Adaptabilidad (del otro lado) Nos ajustamos al cambio y superamos cualquier obstáculo."
+      },
+      "ebm": {
+        "category": "Plataforma",
+        "title": "EBM",
+        "subtitle": "Gestión náutica",
+        "description": "Adaptabilidad (del otro lado) Nos ajustamos al cambio y superamos cualquier obstáculo."
+      },
+      "digitalRanch": {
+        "category": "Aplicación web",
+        "title": "Digital Ranch",
+        "subtitle": "",
+        "description": "Adaptabilidad (del otro lado) Nos ajustamos al cambio y superamos cualquier obstáculo."
+      },
+      "cipreses": {
+        "category": "Sitio web",
+        "title": "Criadero Los Cipreses",
+        "subtitle": "",
+        "description": "Adaptabilidad (del otro lado) Nos ajustamos al cambio y superamos cualquier obstáculo."
+      },
+      "sendero": {
+        "category": "CRM",
+        "title": "Sendero",
+        "subtitle": "",
+        "description": "Adaptabilidad (del otro lado) Nos ajustamos al cambio y superamos cualquier obstáculo."
+      },
+      "easySales": {
+        "category": "E-commerce",
+        "title": "Easy Sales",
+        "subtitle": "",
+        "description": "Adaptabilidad (del otro lado) Nos ajustamos al cambio y superamos cualquier obstáculo."
+      }
+    }
+  },
   "home": {
     "title": "Vado | Home",
     "heading": "Hola Mundo",

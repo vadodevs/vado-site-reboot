@@ -9,11 +9,11 @@ export function StaffAugmentationSection() {
   const { path } = useLocale();
 
   return (
-    <section className="relative overflow-hidden py-12 md:py-16 lg:py-20">
+    <section className="relative w-full overflow-hidden py-12 md:py-16 lg:py-20">
       <img
         src="/backgrounds/rectangles.png"
         alt=""
-        className="absolute inset-0 h-auto w-full object-cover object-center lg:right-10"
+        className="absolute inset-0 left-1/2 h-auto w-140 -translate-x-1/2 object-cover object-center"
         aria-hidden
       />
 

@@ -16,6 +16,52 @@
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
+  "ourWork": {
+    "hero": {
+      "titleLine1": "FROM CHALLENGE",
+      "titleLine2": "TO RESULT",
+      "tagline": "Discover some of the projects we have developed with our clients, where we combine technology, design and strategy to achieve real results.",
+      "cta": "Contact us"
+    },
+    "projects": {
+      "zenqur": {
+        "category": "Web application",
+        "title": "ZenQR",
+        "subtitle": "Code Generator",
+        "description": "Adaptability (on the other side) We adapt to change and overcome any obstacle."
+      },
+      "ebm": {
+        "category": "Platform",
+        "title": "EBM",
+        "subtitle": "Marine management",
+        "description": "Adaptability (on the other side) We adapt to change and overcome any obstacle."
+      },
+      "digitalRanch": {
+        "category": "Web application",
+        "title": "Digital Ranch",
+        "subtitle": "",
+        "description": "Adaptability (on the other side) We adapt to change and overcome any obstacle."
+      },
+      "cipreses": {
+        "category": "Website",
+        "title": "Criadero Los Cipreses",
+        "subtitle": "",
+        "description": "Adaptability (on the other side) We adapt to change and overcome any obstacle."
+      },
+      "sendero": {
+        "category": "CRM",
+        "title": "Sendero",
+        "subtitle": "",
+        "description": "Adaptability (on the other side) We adapt to change and overcome any obstacle."
+      },
+      "easySales": {
+        "category": "E-commerce",
+        "title": "Easy Sales",
+        "subtitle": "",
+        "description": "Adaptability (on the other side) We adapt to change and overcome any obstacle."
+      }
+    }
+  },
   "home": {
     "title": "Vado | Home",
     "heading": "Hello World",
