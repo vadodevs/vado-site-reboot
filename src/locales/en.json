@@ -70,6 +70,15 @@
       "startProject": "Let's start your project",
       "imageAlt": "Team working in coworking space"
     },
+    "cultureAndTalent": {
+      "label": "CULTURE AND TALENT",
+      "titlePart1": "Where ideas",
+      "titlePart2": "turn into action",
+      "description1": "We are a community that shares challenges, celebrates achievements, and supports each other to grow.",
+      "description2": "Our culture combines collaboration, constant learning, and autonomy, in an environment where everyone contributes with purpose.",
+      "cta": "Learn about the 5 V's of Vado",
+      "imageAlt": "Vado team and culture"
+    },
     "whyVado": {
       "preHeading": "WHY VADO?",
       "titlePart1": "Technology solutions",
