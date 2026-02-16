@@ -260,6 +260,46 @@
             "description": "Haz más con menos esfuerzo. Agiliza procesos internos y reduce tareas manuales para que tu negocio funcione sin interrupciones."
           }
         }
+      },
+      "process": {
+        "label": "Nuestro proceso",
+        "title": "Así llevamos tu proyecto de IA",
+        "subtitle": "de la idea al impacto",
+        "steps": {
+          "step1": {
+            "title": "Descubrimiento y Planificación",
+            "description": "Definimos juntos objetivos, alcance y requisitos para asegurar claridad desde el principio."
+          },
+          "step2": {
+            "title": "Desarrollo",
+            "description": "Diseñamos y construimos soluciones de IA hechas a tu medida con las últimas tecnologías."
+          },
+          "step3": {
+            "title": "Integración Práctica",
+            "description": "Incorporamos IA sin interrumpir tus procesos actuales."
+          },
+          "step4": {
+            "title": "Pruebas y Calidad",
+            "description": "Revisamos cada detalle para que tus soluciones IA sean funcionales, seguras y confiables."
+          },
+          "step5": {
+            "title": "Lanzamiento y Soporte Continuo",
+            "description": "Proporcionamos soporte continuo post-implementación y actualizaciones para asegurar el éxito sostenido."
+          }
+        }
+      },
+      "whyVado": {
+        "preHeading": "¿Por qué Vado?",
+        "titlePart1": "IA que",
+        "titlePart2": "se adapta",
+        "description": "Desarrollamos inteligencia artificial útil, aplicable y alineada con los objetivos de cada empresa.",
+        "descriptionPart2": "Cada desarrollo parte de un análisis de tus procesos y objetivos. Creamos modelos y flujos que realmente ayudan a mejorar tu operación.",
+        "startProject": "Integrar IA",
+        "mainIconAlt": "Alianza y colaboración",
+        "sub1IconAlt": "Herramientas de IA adaptadas",
+        "sub1Description": "Elegimos e integramos herramientas de IA que se ajustan a tu industria, datos y necesidades específicas.",
+        "sub2IconAlt": "Acompañamiento técnico y estratégico",
+        "sub2Description": "Desde la identificación de oportunidades hasta la implementación y mejora continua, te acompañamos con un equipo técnico y estratégico."
       }
     },
     "customSoftware": {

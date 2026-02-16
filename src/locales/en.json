@@ -260,6 +260,46 @@
             "description": "Do more with less effort. Streamline internal processes and reduce manual tasks so your business runs without interruptions."
           }
         }
+      },
+      "process": {
+        "label": "Our process",
+        "title": "How we carry out your AI project",
+        "subtitle": "from idea to impact",
+        "steps": {
+          "step1": {
+            "title": "Discovery and Planning",
+            "description": "We define objectives, scope and requirements together to ensure clarity from the start."
+          },
+          "step2": {
+            "title": "Development",
+            "description": "We design and build AI solutions tailored to you with the latest technologies."
+          },
+          "step3": {
+            "title": "Practical Integration",
+            "description": "We incorporate AI without interrupting your current processes."
+          },
+          "step4": {
+            "title": "Testing and Quality",
+            "description": "We review every detail so your AI solutions are functional, secure and reliable."
+          },
+          "step5": {
+            "title": "Launch and Continuous Support",
+            "description": "We provide continuous post-implementation support and updates to ensure sustained success."
+          }
+        }
+      },
+      "whyVado": {
+        "preHeading": "Why Vado?",
+        "titlePart1": "AI that",
+        "titlePart2": "adapts",
+        "description": "We develop useful artificial intelligence, applicable and aligned with each company's objectives.",
+        "descriptionPart2": "Each development starts with an analysis of your processes and goals. We create models and flows that truly help improve your operation.",
+        "startProject": "Integrate AI",
+        "mainIconAlt": "Partnership and collaboration",
+        "sub1IconAlt": "Adapted AI tools",
+        "sub1Description": "We choose and integrate AI tools that adapt to your industry, data and specific needs.",
+        "sub2IconAlt": "Technical and strategic support",
+        "sub2Description": "From opportunity identification to implementation and continuous improvement, we support you with a technical and strategic team."
       }
     },
     "customSoftware": {
