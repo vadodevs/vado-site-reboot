@@ -8,6 +8,7 @@ import { StaffAugmentationSection } from '@/components/layout/home/staff-augment
 import { TechStackSection } from '@/components/layout/home/tech-stack/TechStackSection';
 import { WhyVadoSection } from '@/components/layout/home/why-vado/WhyVadoSection';
 import { CultureAndTalentSection } from '@/components/layout/home/culture-and-talent/CultureAndTalentSection';
+import { VadoInsightsSection } from '@/components/layout/home/insights/VadoInsightsSection';
 import { TrustedBrands } from '@/components/layout/home/brands/TrustedBrands';
 import MainLayout from '@/components/layout/MainLayout';
 
@@ -27,6 +28,7 @@ export default function Home() {
         <StaffAugmentationSection />
         <WhyVadoSection />
         <CultureAndTalentSection />
+        <VadoInsightsSection />
       </MainLayout>
     </>
   );

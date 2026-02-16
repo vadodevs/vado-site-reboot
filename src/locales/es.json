@@ -79,6 +79,31 @@
       "cta": "Conoce las 5 V's de Vado",
       "imageAlt": "Equipo y cultura Vado"
     },
+    "vadoInsights": {
+      "label": "VADO INSIGHTS",
+      "titlePart1": "Mantente al día con nuestros",
+      "titlePart2": "últimos artículos",
+      "viewMore": "Ver más",
+      "author": "The Vado Team",
+      "article1": {
+        "date": "18 de septiembre, 2025",
+        "category": "NEARSHORE",
+        "title": "10 RAZONES POR LAS QUE EL NEARSHORE IMPULSA EL ÉXITO DE TU NEGOCIO",
+        "imageAlt": "Artículo sobre nearshore"
+      },
+      "article2": {
+        "date": "18 de septiembre, 2025",
+        "category": "TALENT",
+        "title": "CONSEGUIR EL TRABAJO SOÑADO: CÓMO DESTACAR EN LA ENTREVISTA DE DESARROLLO",
+        "imageAlt": "Artículo sobre talento"
+      },
+      "article3": {
+        "date": "18 de septiembre, 2025",
+        "category": "NEARSHORE",
+        "title": "DESBLOQUEANDO EL POTENCIAL: BENEFICIOS DE LA INGENIERÍA NEARSHORE",
+        "imageAlt": "Artículo sobre ingeniería nearshore"
+      }
+    },
     "whyVado": {
       "preHeading": "¿POR QUÉ VADO?",
       "titlePart1": "Soluciones tecnológicas",
