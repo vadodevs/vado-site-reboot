@@ -38,6 +38,14 @@
       "card3Description": "Software de alto rendimiento con seguridad incorporada para proteger tu negocio.",
       "moreInfo": "Más Información",
       "bgAlt": "Fondo decorativo"
+    },
+    "aiSolutions": {
+      "label": "SOLUCIONES DE IA",
+      "title": "Soluciones de IA que se adaptan a tu negocio",
+      "description": "Impulsamos tu negocio con soluciones de inteligencia artificial diseñadas para automatizar tareas, mejorar la atención al cliente, analizar grandes volúmenes de datos y tomar decisiones más inteligentes.",
+      "moreInfo": "Más Información",
+      "startProject": "Empecemos tu proyecto",
+      "bgAlt": "Fondo decorativo"
     }
   },
   "notFound": {

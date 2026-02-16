@@ -38,6 +38,14 @@
       "card3Description": "High-performance software with built-in security to protect your business.",
       "moreInfo": "More Information",
       "bgAlt": "Decorative background"
+    },
+    "aiSolutions": {
+      "label": "AI SOLUTIONS",
+      "title": "AI solutions that adapt to your business",
+      "description": "We drive your business with artificial intelligence solutions designed to automate tasks, improve customer service, analyze large volumes of data and make smarter decisions.",
+      "moreInfo": "More Information",
+      "startProject": "Let's start your project",
+      "bgAlt": "Decorative background"
     }
   },
   "notFound": {
