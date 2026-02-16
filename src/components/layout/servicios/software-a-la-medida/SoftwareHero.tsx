@@ -10,7 +10,7 @@ export function SoftwareHero() {
 
   return (
     <section
-      className="relative h-[60vh] min-h-[320px] w-full overflow-hidden"
+      className="relative h-[60vh] min-h-[320px] w-full overflow-hidden bg-white"
       style={{
         clipPath: 'polygon(0 0, 100% 0, 100% 82%, 0 100%)',
       }}

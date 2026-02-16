@@ -243,6 +243,72 @@
           "title": "Meta & Messaging Integration",
           "description": "We integrate WhatsApp, Messenger and other channels into your operations. Customer service, sales and notifications from one place."
         }
+      },
+      "process": {
+        "label": "Our process",
+        "title": "From idea to reality",
+        "steps": {
+          "step1": {
+            "title": "Discovery and Planning",
+            "description": "We define objectives, scope and requirements together to ensure clarity from the start."
+          },
+          "step2": {
+            "title": "Design and Prototyping",
+            "description": "We create functional and attractive designs, along with interactive prototypes so you can test them and give us your feedback."
+          },
+          "step3": {
+            "title": "Development",
+            "description": "Our team turns ideas into reality using modern technology and agile, efficient work methods."
+          },
+          "step4": {
+            "title": "Testing and Quality",
+            "description": "We review every detail so your software is functional, secure and reliable."
+          },
+          "step5": {
+            "title": "Launch and Continuous Support",
+            "description": "We launch your software and offer post-implementation support to ensure optimal performance."
+          }
+        }
+      },
+      "whyVado": {
+        "preHeading": "Why Vado?",
+        "titlePart1": "Technology solutions",
+        "titlePart2": "with purpose",
+        "description": "We are with you throughout the entire process: from the idea to growth. We analyze your processes, identify opportunities and create what your company needs.",
+        "startProject": "Let's start your project",
+        "mainIconAlt": "Partnership and collaboration",
+        "sub1IconAlt": "Deliveries and continuous validation",
+        "sub1Description": "We divide development into stages with constant deliveries and continuous validation so you can have visibility of project progress.",
+        "sub2IconAlt": "Follow-up and support",
+        "sub2Description": "Our work doesn't end with delivery; we provide follow-up, maintenance and support."
+      },
+      "testimonials": {
+        "label": "Our clients",
+        "titlePart1": "Real stories",
+        "titlePart2": "Real impact",
+        "moreInfo": "More information",
+        "startProject": "Let's start your project",
+        "insightsLabel": "Vado Insights",
+        "items": {
+          "1": {
+            "name": "Javier Barceló",
+            "role": "ICSSA",
+            "quote": "Vado excels in developer matching and seamless collaboration, enabling the team to focus on growth. With minimal time zone differences, coordination is efficient.",
+            "image": ""
+          },
+          "2": {
+            "name": "Alek Hagopian",
+            "role": "CEO, SolidlyAI",
+            "quote": "Vado excels in developer matching and seamless collaboration, enabling the SolidlyAI team to concentrate on growth. With minimal time zone differences, coordination is efficient.",
+            "image": ""
+          },
+          "3": {
+            "name": "Company name",
+            "role": "",
+            "quote": "The team delivered our system on time and with quality. Communication was excellent at every stage of the project.",
+            "image": ""
+          }
+        }
       }
     }
   }

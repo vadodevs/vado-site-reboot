@@ -243,6 +243,72 @@
           "title": "Meta y Mensajería Integradas",
           "description": "Integramos WhatsApp, Messenger y otros canales en tu operación. Atención al cliente, ventas y notificaciones desde un solo lugar."
         }
+      },
+      "process": {
+        "label": "Nuestro proceso",
+        "title": "Desde la idea a la realidad",
+        "steps": {
+          "step1": {
+            "title": "Descubrimiento y Planificación",
+            "description": "Definimos juntos objetivos, alcance y requisitos para asegurar claridad desde el principio."
+          },
+          "step2": {
+            "title": "Diseño y Prototipado",
+            "description": "Creamos diseños funcionales y atractivos, junto con prototipos interactivos para que puedas probarlos y darnos tu retroalimentación."
+          },
+          "step3": {
+            "title": "Desarrollo",
+            "description": "Nuestro equipo convierte las ideas en realidad usando tecnología moderna y formas de trabajo ágiles y eficientes."
+          },
+          "step4": {
+            "title": "Pruebas y Calidad",
+            "description": "Revisamos cada detalle para que tu software sea funcional, seguro y confiable."
+          },
+          "step5": {
+            "title": "Lanzamiento y Soporte Continuo",
+            "description": "Lanzamos tu software y ofrecemos soporte post-implementación para asegurar un rendimiento óptimo."
+          }
+        }
+      },
+      "whyVado": {
+        "preHeading": "¿Por qué Vado?",
+        "titlePart1": "Soluciones tecnológicas",
+        "titlePart2": "con propósito",
+        "description": "Estamos contigo en todo el proceso: desde la idea hasta el crecimiento. Analizamos tus procesos, detectamos oportunidades y creamos lo que tu empresa necesita.",
+        "startProject": "Empecemos tu proyecto",
+        "mainIconAlt": "Alianza y colaboración",
+        "sub1IconAlt": "Entregas y validación continua",
+        "sub1Description": "Dividimos el desarrollo en etapas con entregas constantes y validación continua para que puedas tener visibilidad de los avances del proyecto.",
+        "sub2IconAlt": "Seguimiento y soporte",
+        "sub2Description": "Nuestro trabajo no termina con la entrega sino que damos seguimiento, mantenimiento y soporte."
+      },
+      "testimonials": {
+        "label": "Nuestros clientes",
+        "titlePart1": "Historias reales",
+        "titlePart2": "Impacto real",
+        "moreInfo": "Más información",
+        "startProject": "Empecemos tu proyecto",
+        "insightsLabel": "Vado Insights",
+        "items": {
+          "1": {
+            "name": "Javier Barceló",
+            "role": "ICSSA",
+            "quote": "Vado destaca en la selección de desarrolladores y la colaboración fluida, permitiendo al equipo concentrarse en el crecimiento. Con mínimas diferencias horarias, la coordinación es eficiente.",
+            "image": ""
+          },
+          "2": {
+            "name": "Alek Hagopian",
+            "role": "CEO, SolidlyAI",
+            "quote": "Vado destaca en la selección de desarrolladores y la colaboración fluida, permitiendo al equipo de SolidlyAI concentrarse en el crecimiento. Con mínimas diferencias horarias, la coordinación es eficiente.",
+            "image": ""
+          },
+          "3": {
+            "name": "Nombre de empresa",
+            "role": "",
+            "quote": "El equipo entregó nuestro sistema a tiempo y con calidad. La comunicación fue excelente en cada etapa del proyecto.",
+            "image": ""
+          }
+        }
       }
     }
   }
