@@ -52,6 +52,15 @@
       "titlePart2": "growth",
       "description": "We stand out as your ideal partner, combining experience and technology to create scalable and secure solutions.",
       "cta": "Let's start your project"
+    },
+    "clients": {
+      "label": "OUR CLIENTS",
+      "titlePart1": "Real stories",
+      "titlePart2": "Real impact",
+      "testimonial": "Vado excels in developer matching and seamless collaboration, enabling the SolidlyAI team to concentrate on growth. With minimal time zone differences, coordination is efficient, fostering rapid product enhancements. Vado is an ideal choice for top-notch, efficient developer talent.",
+      "cardTitle": "Title",
+      "moreInfo": "More Information",
+      "startProject": "Let's start your project"
     }
   },
   "notFound": {

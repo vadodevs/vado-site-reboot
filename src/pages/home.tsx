@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { PageTitle } from '@/components/PageTitle';
 import { AISolutionsSection } from '@/components/layout/home/ai-solutions/AISolutionsSection';
 import { DigitalProductsSection } from '@/components/layout/home/digital-products/DigitalProductsSection';
+import { ClientsSection } from '@/components/layout/home/clients/ClientsSection';
 import { Hero } from '@/components/layout/home/hero/Hero';
 import { TechStackSection } from '@/components/layout/home/tech-stack/TechStackSection';
 import { TrustedBrands } from '@/components/layout/home/brands/TrustedBrands';
@@ -19,6 +20,7 @@ export default function Home() {
         <DigitalProductsSection />
         <AISolutionsSection />
         <TechStackSection />
+        <ClientsSection />
       </MainLayout>
     </>
   );
