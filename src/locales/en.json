@@ -61,6 +61,27 @@
       "cardTitle": "Title",
       "moreInfo": "More Information",
       "startProject": "Let's start your project"
+    },
+    "staffAugmentation": {
+      "label": "STAFF AUGMENTATION",
+      "title": "Strengthen your team with specialized talent",
+      "description": "We offer staff augmentation solutions designed for your unique needs.",
+      "moreInfo": "More information",
+      "startProject": "Let's start your project",
+      "imageAlt": "Team working in coworking space"
+    },
+    "whyVado": {
+      "preHeading": "WHY VADO?",
+      "titlePart1": "Technology solutions",
+      "titlePart2": "aligned with your goals",
+      "description": "We integrate with your way of working so you get results without complications. From understanding your needs, implementing them, and providing support. When we're done, the code belongs to you, giving you full control over your solution.",
+      "moreInfo": "More Information",
+      "startProject": "Let's start your project",
+      "mainIconAlt": "Partnership and collaboration",
+      "sub1IconAlt": "Evolution and continuous improvement",
+      "sub1Description": "We constantly evolve our tools and processes to offer you functional, secure, and future-ready technology solutions.",
+      "sub2IconAlt": "Strategy and results",
+      "sub2Description": "We are your strategic partner to turn ideas into real results. Our commitment is clear: quality at every step and solutions that grow your business."
     }
   },
   "notFound": {

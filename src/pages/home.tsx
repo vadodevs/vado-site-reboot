@@ -4,7 +4,9 @@ import { AISolutionsSection } from '@/components/layout/home/ai-solutions/AISolu
 import { DigitalProductsSection } from '@/components/layout/home/digital-products/DigitalProductsSection';
 import { ClientsSection } from '@/components/layout/home/clients/ClientsSection';
 import { Hero } from '@/components/layout/home/hero/Hero';
+import { StaffAugmentationSection } from '@/components/layout/home/staff-augmentation/StaffAugmentationSection';
 import { TechStackSection } from '@/components/layout/home/tech-stack/TechStackSection';
+import { WhyVadoSection } from '@/components/layout/home/why-vado/WhyVadoSection';
 import { TrustedBrands } from '@/components/layout/home/brands/TrustedBrands';
 import MainLayout from '@/components/layout/MainLayout';
 
@@ -21,6 +23,8 @@ export default function Home() {
         <AISolutionsSection />
         <TechStackSection />
         <ClientsSection />
+        <StaffAugmentationSection />
+        <WhyVadoSection />
       </MainLayout>
     </>
   );

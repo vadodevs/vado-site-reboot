@@ -61,6 +61,27 @@
       "cardTitle": "Título",
       "moreInfo": "Más Información",
       "startProject": "Empecemos tu proyecto"
+    },
+    "staffAugmentation": {
+      "label": "AMPLIACIÓN DE PERSONAL",
+      "title": "Fortalece tu equipo con talento especializado",
+      "description": "Ofrecemos soluciones de ampliación de personal diseñadas para tus necesidades únicas.",
+      "moreInfo": "Más información",
+      "startProject": "Empecemos tu proyecto",
+      "imageAlt": "Equipo trabajando en espacio de coworking"
+    },
+    "whyVado": {
+      "preHeading": "¿POR QUÉ VADO?",
+      "titlePart1": "Soluciones tecnológicas",
+      "titlePart2": "alineadas a tus objetivos",
+      "description": "Nos integramos con tu forma de trabajar para que obtengas resultados sin complicaciones. Desde entender tu necesidad, implementarla y dar soporte. Al finalizar, el código te pertenece, dándote control total sobre tu solución.",
+      "moreInfo": "Más Información",
+      "startProject": "Empecemos tu proyecto",
+      "mainIconAlt": "Alianza y colaboración",
+      "sub1IconAlt": "Evolución y mejora continua",
+      "sub1Description": "Evolucionamos constantemente nuestras herramientas y procesos para ofrecerte soluciones tecnológicas funcionales, seguras y preparadas para el futuro.",
+      "sub2IconAlt": "Estrategia y resultados",
+      "sub2Description": "Somos tu socio estratégico para convertir ideas en resultados reales. Nuestro compromiso es claro: calidad en cada paso y soluciones que hacen crecer tu negocio."
     }
   },
   "notFound": {
