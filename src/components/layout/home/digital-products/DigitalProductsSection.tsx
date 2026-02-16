@@ -28,15 +28,15 @@ export function DigitalProductsSection({
       />
       <CenterContainer>
         <div className="relative flex flex-col items-center gap-8 py-12 lg:gap-12 lg:py-16">
-          <div className="relative flex w-full flex-col items-center gap-4 py-4 md:flex-row-reverse md:gap-8 lg:mr-auto lg:ml-6 lg:max-w-5xl lg:gap-20 lg:py-6">
+          <div className="flex flex-col-reverse gap-8 lg:w-full lg:flex-row">
             <div className="flex items-center justify-center md:w-auto md:shrink-0">
               <PhoneMockup
-                className="w-[min(240px,65vw)] md:w-[280px]"
+                className="w-[min(240px,65vw)] md:w-[250px] lg:w-[220px]"
                 src={mockupImageSrc}
                 alt={mockupImageAlt}
               />
             </div>
-            <div className="relative flex w-full items-center px-4 md:flex-1 md:px-0 lg:pr-8">
+            <div className="relative flex w-full items-center px-4 md:flex-1 md:px-0 lg:max-w-xl lg:pr-8">
               <div>
                 <p className="text-muted-foreground mb-2 text-xs font-medium tracking-wider uppercase md:text-sm">
                   {t('home.digitalProducts.label')}
@@ -73,11 +73,15 @@ export function DigitalProductsSection({
             />
           </div>
 
-          <div className="flex flex-wrap items-center justify-center gap-3">
-            <Button variant="outline" size="lg" className="border-primary text-primary" asChild>
+          <div className="flex w-full flex-col items-center justify-center gap-3 md:w-auto md:flex-row">
+            <Button
+              variant="outline"
+              className="border-primary text-primary w-full md:w-auto"
+              asChild
+            >
               <Link href={path('/servicios/desarrollo')}>{t('home.digitalProducts.moreInfo')}</Link>
             </Button>
-            <Button size="lg" asChild>
+            <Button className="w-full md:w-auto" asChild>
               <Link href={path('/contacto')}>{t('nav.contactUs')}</Link>
             </Button>
           </div>
