@@ -38,7 +38,7 @@ export function Footer() {
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="border-primary flex size-11 shrink-0 items-center justify-center border-2 text-white transition-colors hover:bg-primary/20 skew-x-12"
+                  className="border-primary hover:bg-primary/20 flex size-11 shrink-0 skew-x-12 items-center justify-center border-2 text-white transition-colors"
                   aria-label={label}
                 >
                   <span className="-skew-x-12">

@@ -17,8 +17,15 @@ export function CtaContactSection() {
   const { t } = useTranslation();
 
   return (
-    <section className="bg-background relative overflow-hidden pt-0 pb-12 md:pb-16 lg:pb-20">
-      {/* Solo la ola de bg-cut.svg como detalle superior, sin relleno azul */}
+    <section className="relative overflow-hidden pt-0 pb-12 md:pb-16 lg:pb-10">
+      {/* Mitad superior blanca, mitad inferior #f8fafc */}
+      <div
+        className="pointer-events-none absolute inset-0 z-0"
+        style={{
+          background: 'linear-gradient(to bottom, white 50%, #f8fafc 50%)',
+        }}
+        aria-hidden
+      />
       <img
         src="/backgrounds/bg-cut-v2.svg"
         alt=""
