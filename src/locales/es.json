@@ -413,6 +413,58 @@
           }
         }
       }
+    },
+    "staffAugmentation": {
+      "hero": {
+        "titleLine1": "Empodera tu empresa con",
+        "titleLine2": "desarrolladores confiables",
+        "tagline": "Contrata el mejor talento remoto de América Latina y mejora tu equipo para alcanzar mayores hitos.",
+        "cta": "Contratar Talento"
+      },
+      "intro": {
+        "label": "AMPLIACIÓN DE PERSONAL",
+        "titlePart1": "Expertos calificados para",
+        "titlePart2": "desarrollar tus proyectos",
+        "subheadline": "Talento Estratégico para Tu Equipo",
+        "description": "La ampliación de personal es una estrategia flexible que te permite sumar talento especializado a tus proyectos sin necesidad de contratar internamente. Adaptamos el perfil a los requerimientos y objetivos de tu proyecto.",
+        "cta": "Refuerza tu equipo"
+      },
+      "process": {
+        "label": "NUESTRO PROCESO",
+        "titlePart1": "¿Cómo funciona nuestra",
+        "titlePart2": "ampliación de personal?",
+        "steps": {
+          "step1": {
+            "title": "Revisión Cuidadosa",
+            "description": "Analizamos cada perfil con detalle para encontrar a los candidatos ideales para cada proyecto."
+          },
+          "step2": {
+            "title": "Prueba de Habilidades",
+            "description": "Evaluamos conocimientos y capacidades técnicas para asegurarnos de que cada persona aporte valor desde el primer día."
+          },
+          "step3": {
+            "title": "Ajuste Cultural",
+            "description": "Realizamos entrevistas a profundidad para confirmar que compartan nuestros valores y encajen con la forma de trabajar de cada cliente."
+          },
+          "step4": {
+            "title": "Integración Guiada",
+            "description": "Una vez aprobado, el nuevo talento se une a tu equipo de forma eficiente y con el apoyo de Vado en todo momento."
+          }
+        }
+      },
+      "whyVado": {
+        "preHeading": "¿Por qué Vado?",
+        "titlePart1": "Talento especializado para",
+        "titlePart2": "lograr resultados",
+        "description": "Nos enfocamos en encontrar el perfil adecuado e integrarlo a tu equipo.",
+        "descriptionPart2": "Buscamos talento con experiencia comprobada y habilidades alineadas a tu proyecto.",
+        "startProject": "Refuerza tu equipo",
+        "mainIconAlt": "Alianza y colaboración",
+        "sub1IconAlt": "Adaptación e integración",
+        "sub1Description": "Nos adaptamos a tu forma de trabajo sin interferir con tu operación ni retrasar tus procesos.",
+        "sub2IconAlt": "Seguimiento y monitoreo",
+        "sub2Description": "Monitoreamos el desempeño del talento asignado y nos mantenemos en contacto para ajustar lo que sea necesario."
+      }
     }
   }
 }

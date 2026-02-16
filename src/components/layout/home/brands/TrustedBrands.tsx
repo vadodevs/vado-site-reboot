@@ -25,7 +25,7 @@ export function TrustedBrands() {
   const { t } = useTranslation();
 
   return (
-    <section className="border-border bg-background border-t py-14">
+    <section className="bg-background py-14">
       <CenterContainer className="flex flex-col items-center">
         <h2 className="text-foreground/60 mb-10 text-center text-xl font-medium">
           {t('home.trustedBrandsTitle')}

@@ -413,6 +413,58 @@
           }
         }
       }
+    },
+    "staffAugmentation": {
+      "hero": {
+        "titleLine1": "Empower your company with",
+        "titleLine2": "reliable developers",
+        "tagline": "Hire the best remote talent from Latin America and strengthen your team to achieve greater milestones.",
+        "cta": "Hire Talent"
+      },
+      "intro": {
+        "label": "STAFF AUGMENTATION",
+        "titlePart1": "Qualified experts to",
+        "titlePart2": "develop your projects",
+        "subheadline": "Strategic Talent for Your Team",
+        "description": "Staff augmentation is a flexible strategy that allows you to add specialized talent to your projects without hiring internally. We adapt the profile to the requirements and objectives of your project.",
+        "cta": "Strengthen your team"
+      },
+      "process": {
+        "label": "OUR PROCESS",
+        "titlePart1": "How does our",
+        "titlePart2": "staff augmentation work?",
+        "steps": {
+          "step1": {
+            "title": "Careful Review",
+            "description": "We analyze each profile in detail to find the ideal candidates for each project."
+          },
+          "step2": {
+            "title": "Skills Test",
+            "description": "We evaluate knowledge and technical skills to ensure that each person adds value from day one."
+          },
+          "step3": {
+            "title": "Cultural Fit",
+            "description": "We conduct in-depth interviews to confirm they share our values and fit with each client's way of working."
+          },
+          "step4": {
+            "title": "Guided Integration",
+            "description": "Once approved, the new talent joins your team efficiently and with Vado's support at all times."
+          }
+        }
+      },
+      "whyVado": {
+        "preHeading": "Why Vado?",
+        "titlePart1": "Specialized talent to",
+        "titlePart2": "achieve results",
+        "description": "We focus on finding the right profile and integrating it into your team.",
+        "descriptionPart2": "We look for talent with proven experience and skills aligned with your project.",
+        "startProject": "Strengthen your team",
+        "mainIconAlt": "Partnership and collaboration",
+        "sub1IconAlt": "Adaptation and integration",
+        "sub1Description": "We adapt to your way of working without interfering with your operation or delaying your processes.",
+        "sub2IconAlt": "Follow-up and monitoring",
+        "sub2Description": "We monitor the performance of assigned talent and stay in contact to adjust whatever is necessary."
+      }
     }
   }
 }
