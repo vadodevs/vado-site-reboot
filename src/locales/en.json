@@ -116,11 +116,86 @@
       "sub1Description": "We constantly evolve our tools and processes to offer you functional, secure, and future-ready technology solutions.",
       "sub2IconAlt": "Strategy and results",
       "sub2Description": "We are your strategic partner to turn ideas into real results. Our commitment is clear: quality at every step and solutions that grow your business."
+    },
+    "faq": {
+      "label": "GOT QUESTIONS?",
+      "titlePart1": "We have",
+      "titlePart2": "answers!",
+      "description": "We offer staff augmentation solutions designed for your unique needs.",
+      "cta": "Contact us",
+      "questions": {
+        "q1": {
+          "question": "What types of solutions does Vado offer?",
+          "answer": "We offer custom software development, AI solutions, and staff augmentation with specialized talent."
+        },
+        "q2": {
+          "question": "How do you work with clients?",
+          "answer": "We integrate with your way of working: we understand your needs, implement the solution, and provide ongoing support. When we're done, the code belongs to you."
+        },
+        "q3": {
+          "question": "What technologies are you specialized in?",
+          "answer": "We work with a modern, scalable stack: React, Node.js, Python, cloud (AWS, GCP), and AI tools, adapting to each project."
+        },
+        "q4": {
+          "question": "Do you offer support after the project?",
+          "answer": "Yes. We offer ongoing support, maintenance, and evolution of solutions so they continue to grow with your business."
+        },
+        "q5": {
+          "question": "How can I start a project with Vado?",
+          "answer": "Contact us through our contact page. We'll discuss your needs, define scope, and propose the next steps."
+        },
+        "q6": {
+          "question": "Do you work with companies outside my country?",
+          "answer": "Yes. We work with clients in different regions, with clear communication and schedules that adapt for effective collaboration."
+        }
+      }
+    },
+    "ctaContact": {
+      "titlePart1": "TOGETHER WE DIGITIZE",
+      "titlePart2": "YOUR IDEA!",
+      "description": "We offer free consulting to explore how Vado Devs can drive your project.",
+      "benefit1": "Free consulting to define scope and feasibility of your idea.",
+      "benefit2": "Specialized team in software development and AI.",
+      "benefit3": "Support from idea to launch.",
+      "formTitle": "CONTACT US",
+      "subject": "Subject",
+      "subjectPlaceholder": "Select",
+      "subjectOptions": {
+        "general": "General inquiry",
+        "project": "Project",
+        "support": "Support"
+      },
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "e.g. John Doe",
+      "email": "Email",
+      "emailPlaceholder": "email@example.com",
+      "companyName": "Company name",
+      "companyPlaceholder": "e.g. My Company",
+      "phone": "Phone",
+      "phonePlaceholder": "e.g. 1234567890",
+      "message": "Message",
+      "messagePlaceholder": "Hello, I would like to know...",
+      "privacyLabel": "I agree with the",
+      "privacyPolicy": "Vado Privacy Policy",
+      "and": "and",
+      "termsOfService": "Vado Terms of Service",
+      "newsletterLabel": "I agree to receive newsletters, updates and special offers by email.",
+      "submit": "Send"
     }
   },
   "notFound": {
     "title": "404 - Page not found | Vado",
     "heading": "Page not found",
     "description": "404 — This route does not exist"
+  },
+  "footer": {
+    "stayConnected": "Stay Connected",
+    "policiesHeading": "Policies and conditions",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookies",
+    "contactHeading": "Contact",
+    "languageHeading": "Language",
+    "copyright": "Copyright © Vado Devs. {{year}}"
   }
 }

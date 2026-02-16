@@ -116,11 +116,86 @@
       "sub1Description": "Evolucionamos constantemente nuestras herramientas y procesos para ofrecerte soluciones tecnológicas funcionales, seguras y preparadas para el futuro.",
       "sub2IconAlt": "Estrategia y resultados",
       "sub2Description": "Somos tu socio estratégico para convertir ideas en resultados reales. Nuestro compromiso es claro: calidad en cada paso y soluciones que hacen crecer tu negocio."
+    },
+    "faq": {
+      "label": "¿TIENES PREGUNTAS?",
+      "titlePart1": "¡Tenemos",
+      "titlePart2": "respuestas!",
+      "description": "Ofrecemos soluciones de ampliación de personal diseñadas para tus necesidades únicas.",
+      "cta": "Contáctanos",
+      "questions": {
+        "q1": {
+          "question": "¿Qué tipos de soluciones ofrece Vado?",
+          "answer": "Ofrecemos desarrollo de software a la medida, soluciones de inteligencia artificial y ampliación de personal con talento especializado."
+        },
+        "q2": {
+          "question": "¿Cómo trabajan con los clientes?",
+          "answer": "Nos integramos con tu forma de trabajar: entendemos tu necesidad, implementamos la solución y damos soporte continuo. Al finalizar, el código te pertenece."
+        },
+        "q3": {
+          "question": "¿En qué tecnologías están especializados?",
+          "answer": "Trabajamos con un stack moderno y escalable: React, Node.js, Python, cloud (AWS, GCP) y herramientas de IA, adaptándonos a cada proyecto."
+        },
+        "q4": {
+          "question": "¿Ofrecen soporte después del proyecto?",
+          "answer": "Sí. Ofrecemos soporte continuo, mantenimiento y evolución de las soluciones para que sigan creciendo con tu negocio."
+        },
+        "q5": {
+          "question": "¿Cómo puedo empezar un proyecto con Vado?",
+          "answer": "Contáctanos por la página de contacto. Conversamos sobre tu necesidad, definimos alcance y te proponemos los siguientes pasos."
+        },
+        "q6": {
+          "question": "¿Trabajan con empresas fuera de mi país?",
+          "answer": "Sí. Trabajamos con clientes en distintas regiones, con comunicación fluida y horarios que se adaptan para una colaboración efectiva."
+        }
+      }
+    },
+    "ctaContact": {
+      "titlePart1": "¡JUNTOS DIGITALIZAMOS",
+      "titlePart2": "TU IDEA!",
+      "description": "Ofrecemos consultoría gratuita para explorar cómo Vado Devs puede impulsar tu proyecto.",
+      "benefit1": "Consultoría gratuita para definir alcance y viabilidad de tu idea.",
+      "benefit2": "Equipo especializado en desarrollo de software e IA.",
+      "benefit3": "Acompañamiento desde la idea hasta el lanzamiento.",
+      "formTitle": "CONTÁCTANOS",
+      "subject": "Asunto",
+      "subjectPlaceholder": "Seleccionar",
+      "subjectOptions": {
+        "general": "Consulta general",
+        "project": "Proyecto",
+        "support": "Soporte"
+      },
+      "fullName": "Nombre Completo",
+      "fullNamePlaceholder": "Ej. Juan Pérez",
+      "email": "Correo",
+      "emailPlaceholder": "correo@ejemplo.com",
+      "companyName": "Nombre de la empresa",
+      "companyPlaceholder": "Ej. Mi Empresa",
+      "phone": "Teléfono",
+      "phonePlaceholder": "Ej. 1234567890",
+      "message": "Mensaje",
+      "messagePlaceholder": "Hola, me gustaría saber...",
+      "privacyLabel": "Estoy de acuerdo con la",
+      "privacyPolicy": "Política de Privacidad de Vado",
+      "and": "y los",
+      "termsOfService": "Términos del Servicio de Vado",
+      "newsletterLabel": "Estoy de acuerdo en recibir boletines, actualizaciones y ofertas especiales por correo electrónico.",
+      "submit": "Enviar"
     }
   },
   "notFound": {
     "title": "404 - Página no encontrada | Vado",
     "heading": "Página no encontrada",
     "description": "404 — La ruta no existe"
+  },
+  "footer": {
+    "stayConnected": "Mantente Conectado",
+    "policiesHeading": "Políticas y condiciones",
+    "terms": "Términos del Servicio",
+    "privacy": "Política de Privacidad",
+    "cookies": "Cookies",
+    "contactHeading": "Contacto",
+    "languageHeading": "Idioma",
+    "copyright": "Copyright © Vado Devs. {{year}}"
   }
 }
