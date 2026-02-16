@@ -46,6 +46,12 @@
       "moreInfo": "Más Información",
       "startProject": "Empecemos tu proyecto",
       "bgAlt": "Fondo decorativo"
+    },
+    "techStack": {
+      "titlePart1": "Tecnologías que impulsan",
+      "titlePart2": "el crecimiento",
+      "description": "Nos destacamos como tu socio ideal, combinando experiencia y tecnología para crear soluciones escalables y seguras.",
+      "cta": "Empecemos tu proyecto"
     }
   },
   "notFound": {

@@ -46,6 +46,12 @@
       "moreInfo": "More Information",
       "startProject": "Let's start your project",
       "bgAlt": "Decorative background"
+    },
+    "techStack": {
+      "titlePart1": "Technologies that drive",
+      "titlePart2": "growth",
+      "description": "We stand out as your ideal partner, combining experience and technology to create scalable and secure solutions.",
+      "cta": "Let's start your project"
     }
   },
   "notFound": {

@@ -3,6 +3,7 @@ import { PageTitle } from '@/components/PageTitle';
 import { AISolutionsSection } from '@/components/layout/home/ai-solutions/AISolutionsSection';
 import { DigitalProductsSection } from '@/components/layout/home/digital-products/DigitalProductsSection';
 import { Hero } from '@/components/layout/home/hero/Hero';
+import { TechStackSection } from '@/components/layout/home/tech-stack/TechStackSection';
 import { TrustedBrands } from '@/components/layout/home/brands/TrustedBrands';
 import MainLayout from '@/components/layout/MainLayout';
 
@@ -17,6 +18,7 @@ export default function Home() {
         <TrustedBrands />
         <DigitalProductsSection />
         <AISolutionsSection />
+        <TechStackSection />
       </MainLayout>
     </>
   );
