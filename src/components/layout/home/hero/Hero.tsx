@@ -1,7 +1,6 @@
 import { useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'wouter';
-import { motion } from 'motion/react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import type { Swiper as SwiperType } from 'swiper';
@@ -55,12 +54,7 @@ export function Hero() {
             <div className="absolute inset-0 bg-black/40" aria-hidden />
             <div className="absolute inset-0 z-10 flex items-center justify-center">
               <CenterContainer className="w-full">
-                <motion.div
-                  className="flex flex-col items-start text-left text-white"
-                  initial={{ opacity: 0, y: 24 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
-                >
+                <div className="flex flex-col items-start text-left text-white">
                   <h1 className="max-w-3xl drop-shadow-md">
                     <span className="block text-4xl font-bold uppercase tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
                       {t('home.heroTitleLine1')}
@@ -80,7 +74,7 @@ export function Hero() {
                       {t('home.heroCta')}
                     </Button>
                   </Link>
-                </motion.div>
+                </div>
               </CenterContainer>
             </div>
           </div>
