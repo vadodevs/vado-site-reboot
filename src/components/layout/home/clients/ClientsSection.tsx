@@ -4,6 +4,39 @@ import { CenterContainer } from '@/components/layout/CenterContainer';
 import { Button } from '@/components/ui/button';
 import { useLocale } from '@/hooks/useLocale';
 
+const TESTIMONIAL_IDS = ['1', '2', '3'] as const;
+
+function TestimonialAvatar({
+  src,
+  alt,
+  name,
+}: {
+  src: string | undefined;
+  alt: string;
+  name: string;
+}) {
+  const initial = name.trim().charAt(0).toUpperCase() || '?';
+
+  if (src) {
+    return (
+      <img
+        src={src}
+        alt={alt}
+        className="h-10 w-10 shrink-0 rounded-full object-cover md:h-12 md:w-12"
+      />
+    );
+  }
+
+  return (
+    <div
+      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#19314c] text-sm font-semibold text-white/90 md:h-12 md:w-12 md:text-base"
+      aria-hidden
+    >
+      {initial}
+    </div>
+  );
+}
+
 export function ClientsSection() {
   const { t } = useTranslation();
   const { path } = useLocale();
@@ -41,19 +74,36 @@ export function ClientsSection() {
 
           {/* Tarjetas de testimonios */}
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {[1, 2, 3].map((i) => (
-              <div
-                key={i}
-                className="bg-background border-border flex flex-col gap-4 rounded-xl border p-6 shadow-sm"
-              >
-                <p className="flex-1 text-sm leading-relaxed text-[#19314C] md:text-base">
-                  {t('home.clients.testimonial')}
-                </p>
-                <p className="text-sm font-semibold text-[#19314C]">
-                  {t('home.clients.cardTitle')}
-                </p>
-              </div>
-            ))}
+            {TESTIMONIAL_IDS.map((id) => {
+              const name = t(`home.clients.items.${id}.name`);
+              const role = t(`home.clients.items.${id}.role`);
+              const imageSrc = t(`home.clients.items.${id}.image`);
+              const useImage =
+                typeof imageSrc === 'string' &&
+                imageSrc.length > 0 &&
+                !imageSrc.startsWith('home.');
+
+              return (
+                <div
+                  key={id}
+                  className="bg-background border-border flex flex-col gap-4 rounded-xl border p-6 shadow-sm"
+                >
+                  <p className="flex-1 text-sm leading-relaxed text-[#19314c] md:text-base">
+                    {t(`home.clients.items.${id}.quote`)}
+                  </p>
+                  <div className="flex items-center gap-3">
+                    <TestimonialAvatar
+                      src={useImage ? imageSrc : undefined}
+                      alt=""
+                      name={name}
+                    />
+                    <p className="text-sm font-semibold text-[#19314c]">
+                      {role ? `${name} - ${role}` : name}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
           </div>
 
           {/* Botones */}

@@ -29,7 +29,7 @@ function TestimonialAvatar({
 
   return (
     <div
-      className="bg-[#19314c] flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-sm font-semibold text-white/90 md:h-12 md:w-12 md:text-base"
+      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#19314c] text-sm font-semibold text-white/90 md:h-12 md:w-12 md:text-base"
       aria-hidden
     >
       {initial}
@@ -55,10 +55,10 @@ export function SoftwareTestimonialsSection() {
         <div className="flex flex-col gap-10">
           {/* Título: label + Historias reales / Impacto real */}
           <div className="flex flex-col gap-2 text-left">
-            <p className="text-xs font-medium uppercase tracking-wider text-[#19314c] md:text-sm">
+            <p className="text-xs font-medium tracking-wider text-[#19314c] uppercase md:text-sm">
               {t('services.customSoftware.testimonials.label')}
             </p>
-            <h2 className="text-2xl font-bold leading-tight text-[#19314c] sm:text-3xl md:text-4xl lg:text-[2.25rem]">
+            <h2 className="text-2xl leading-tight font-bold text-[#19314c] sm:text-3xl md:text-4xl lg:text-[2.25rem]">
               {t('services.customSoftware.testimonials.titlePart1')}{' '}
               <span className="text-primary">
                 {t('services.customSoftware.testimonials.titlePart2')}
@@ -66,18 +66,11 @@ export function SoftwareTestimonialsSection() {
             </h2>
           </div>
 
-          {/* Tarjetas de testimonios */}
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {TESTIMONIAL_IDS.map((id) => {
-              const name = t(
-                `services.customSoftware.testimonials.items.${id}.name`
-              );
-              const role = t(
-                `services.customSoftware.testimonials.items.${id}.role`
-              );
-              const imageSrc = t(
-                `services.customSoftware.testimonials.items.${id}.image`
-              );
+              const name = t(`services.customSoftware.testimonials.items.${id}.name`);
+              const role = t(`services.customSoftware.testimonials.items.${id}.role`);
+              const imageSrc = t(`services.customSoftware.testimonials.items.${id}.image`);
               const useImage =
                 typeof imageSrc === 'string' &&
                 imageSrc.length > 0 &&
@@ -88,17 +81,11 @@ export function SoftwareTestimonialsSection() {
                   key={id}
                   className="bg-background border-border flex flex-col gap-4 rounded-xl border p-6 shadow-sm"
                 >
-                  <p className="text-[#19314c] flex-1 text-sm leading-relaxed md:text-base">
-                    {t(
-                      `services.customSoftware.testimonials.items.${id}.quote`
-                    )}
+                  <p className="flex-1 text-sm leading-relaxed text-[#19314c] md:text-base">
+                    {t(`services.customSoftware.testimonials.items.${id}.quote`)}
                   </p>
                   <div className="flex items-center gap-3">
-                    <TestimonialAvatar
-                      src={useImage ? imageSrc : undefined}
-                      alt=""
-                      name={name}
-                    />
+                    <TestimonialAvatar src={useImage ? imageSrc : undefined} alt="" name={name} />
                     <p className="text-sm font-semibold text-[#19314c]">
                       {role ? `${name} - ${role}` : name}
                     </p>
@@ -108,11 +95,10 @@ export function SoftwareTestimonialsSection() {
             })}
           </div>
 
-          {/* Botones CTA */}
           <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
             <Button
               variant="outline"
-              className="w-full border-primary text-primary sm:w-auto"
+              className="border-primary text-primary w-full sm:w-auto"
               asChild
             >
               <Link href={path('/nuestro-trabajo')}>
@@ -125,16 +111,6 @@ export function SoftwareTestimonialsSection() {
               </Link>
             </Button>
           </div>
-
-          {/* VADO INSIGHTS al pie */}
-          <p className="text-left text-xs font-medium uppercase tracking-wider text-[#19314c]">
-            <Link
-              href={path('/compania/vado-insights')}
-              className="hover:text-primary transition-colors"
-            >
-              {t('services.customSoftware.testimonials.insightsLabel')}
-            </Link>
-          </p>
         </div>
       </CenterContainer>
     </section>

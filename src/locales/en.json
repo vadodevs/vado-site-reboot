@@ -57,10 +57,28 @@
       "label": "OUR CLIENTS",
       "titlePart1": "Real stories",
       "titlePart2": "Real impact",
-      "testimonial": "Vado excels in developer matching and seamless collaboration, enabling the SolidlyAI team to concentrate on growth. With minimal time zone differences, coordination is efficient, fostering rapid product enhancements. Vado is an ideal choice for top-notch, efficient developer talent.",
-      "cardTitle": "Title",
       "moreInfo": "More Information",
-      "startProject": "Let's start your project"
+      "startProject": "Let's start your project",
+      "items": {
+        "1": {
+          "name": "Javier Barceló",
+          "role": "ICSSA",
+          "quote": "Vado excels in developer matching and seamless collaboration, enabling the team to focus on growth. With minimal time zone differences, coordination is efficient.",
+          "image": ""
+        },
+        "2": {
+          "name": "Alek Hagopian",
+          "role": "CEO, SolidlyAI",
+          "quote": "Vado excels in developer matching and seamless collaboration, enabling the SolidlyAI team to concentrate on growth. With minimal time zone differences, coordination is efficient.",
+          "image": ""
+        },
+        "3": {
+          "name": "Company name",
+          "role": "",
+          "quote": "The team delivered our system on time and with quality. Communication was excellent at every stage of the project.",
+          "image": ""
+        }
+      }
     },
     "staffAugmentation": {
       "label": "STAFF AUGMENTATION",
@@ -202,6 +220,48 @@
     "copyright": "Copyright © Vado Devs. {{year}}"
   },
   "services": {
+    "aiSolutions": {
+      "hero": {
+        "titleLine1": "Boost your business",
+        "titleLine2": "with AI solutions",
+        "tagline": "We integrate innovative artificial intelligence into your projects.",
+        "cta": "Integrate AI"
+      },
+      "solutions": {
+        "label": "Our AI solutions",
+        "titlePart1": "We drive your business",
+        "titlePart2": "with intelligent solutions",
+        "description": "We integrate AI into key processes to help you innovate, scale and make better decisions.",
+        "cta": "Let's start your project",
+        "tabs": {
+          "aprendizajeInteligente": {
+            "label": "Intelligent Learning",
+            "title": "Intelligent Learning",
+            "description": "Automate repetitive tasks and make data-driven decisions to optimize your operations."
+          },
+          "visionComputadora": {
+            "label": "Computer Vision",
+            "title": "Computer Vision",
+            "description": "Recognize images, faces and objects to improve security, quality and user experience."
+          },
+          "nlp": {
+            "label": "Natural Language Processing (NLP)",
+            "title": "Natural Language Processing (NLP)",
+            "description": "Improve customer service and interaction using virtual assistants, text analysis, and chatbots."
+          },
+          "analisisPredicciones": {
+            "label": "Analysis and Predictions",
+            "title": "Analysis and Predictions",
+            "description": "Anticipate market trends, analyze large amounts of data and get predictions to make better decisions."
+          },
+          "automatizacionProcesos": {
+            "label": "Process Automation",
+            "title": "Process Automation",
+            "description": "Do more with less effort. Streamline internal processes and reduce manual tasks so your business runs without interruptions."
+          }
+        }
+      }
+    },
     "customSoftware": {
       "hero": {
         "titleLine1": "Build the future",

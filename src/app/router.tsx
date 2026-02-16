@@ -2,6 +2,7 @@ import { Route, Switch, Redirect } from 'wouter'
 import { ScrollToTop } from '@/components/ScrollToTop'
 import Home from '@/pages/home'
 import SoftwareALaMedida from '@/pages/servicios/software-a-la-medida'
+import SolucionesIA from '@/pages/servicios/soluciones-ia'
 import { NotFound } from '@/pages/not-found'
 import { withLocale } from '@/app/withLocale'
 
@@ -14,6 +15,7 @@ export function Router() {
         <Redirect to="/es" />
       </Route>
       <Route path="/:lang/servicios/software-a-la-medida" component={withLocale(SoftwareALaMedida)} />
+      <Route path="/:lang/servicios/soluciones-ia" component={withLocale(SolucionesIA)} />
       <Route path="/:lang" component={withLocale(Home)} />
       <Route path="/:lang/*" component={withLocale(NotFound)} />
       <Route component={NotFound} />

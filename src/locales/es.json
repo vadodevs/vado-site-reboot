@@ -57,10 +57,28 @@
       "label": "NUESTROS CLIENTES",
       "titlePart1": "Historias reales",
       "titlePart2": "Impacto real",
-      "testimonial": "Vado destaca en la selección de desarrolladores y la colaboración fluida, permitiendo al equipo de SolidlyAI concentrarse en el crecimiento. Con mínimas diferencias horarias, la coordinación es eficiente y favorece mejoras rápidas del producto. Vado es la elección ideal para talento desarrollador de alto nivel.",
-      "cardTitle": "Título",
       "moreInfo": "Más Información",
-      "startProject": "Empecemos tu proyecto"
+      "startProject": "Empecemos tu proyecto",
+      "items": {
+        "1": {
+          "name": "Javier Barceló",
+          "role": "ICSSA",
+          "quote": "Vado destaca en la selección de desarrolladores y la colaboración fluida, permitiendo al equipo concentrarse en el crecimiento. Con mínimas diferencias horarias, la coordinación es eficiente.",
+          "image": ""
+        },
+        "2": {
+          "name": "Alek Hagopian",
+          "role": "CEO, SolidlyAI",
+          "quote": "Vado destaca en la selección de desarrolladores y la colaboración fluida, permitiendo al equipo de SolidlyAI concentrarse en el crecimiento. Con mínimas diferencias horarias, la coordinación es eficiente.",
+          "image": ""
+        },
+        "3": {
+          "name": "Nombre de empresa",
+          "role": "",
+          "quote": "El equipo entregó nuestro sistema a tiempo y con calidad. La comunicación fue excelente en cada etapa del proyecto.",
+          "image": ""
+        }
+      }
     },
     "staffAugmentation": {
       "label": "AMPLIACIÓN DE PERSONAL",
@@ -202,6 +220,48 @@
     "copyright": "Copyright © Vado Devs. {{year}}"
   },
   "services": {
+    "aiSolutions": {
+      "hero": {
+        "titleLine1": "Impulsa tu negocio",
+        "titleLine2": "con soluciones de IA",
+        "tagline": "Integramos inteligencia artificial innovadora a tus proyectos.",
+        "cta": "Integrar IA"
+      },
+      "solutions": {
+        "label": "Nuestras soluciones de IA",
+        "titlePart1": "Impulsamos tu negocio",
+        "titlePart2": "con soluciones inteligentes",
+        "description": "Integramos IA en procesos clave para ayudarte a innovar, escalar y tomar mejores decisiones.",
+        "cta": "Empecemos tu proyecto",
+        "tabs": {
+          "aprendizajeInteligente": {
+            "label": "Aprendizaje inteligente",
+            "title": "Aprendizaje Inteligente",
+            "description": "Automatiza tareas repetitivas y toma decisiones basadas en datos para optimizar tus operaciones."
+          },
+          "visionComputadora": {
+            "label": "Visión por Computadora",
+            "title": "Visión por Computadora",
+            "description": "Reconoce imágenes, rostros y objetos para mejorar la seguridad, la calidad y la experiencia de usuario."
+          },
+          "nlp": {
+            "label": "Procesamiento de Lenguaje Natural (NLP)",
+            "title": "Procesamiento de Lenguaje Natural (NLP)",
+            "description": "Mejora la atención al cliente y la interacción usando asistentes virtuales, análisis de texto, y chatbots."
+          },
+          "analisisPredicciones": {
+            "label": "Análisis y Predicciones",
+            "title": "Análisis y Predicciones",
+            "description": "Anticipa tendencias del mercado, analiza grandes cantidades de datos y obtén predicciones para tomar mejores decisiones."
+          },
+          "automatizacionProcesos": {
+            "label": "Automatización de Procesos",
+            "title": "Automatización de Procesos",
+            "description": "Haz más con menos esfuerzo. Agiliza procesos internos y reduce tareas manuales para que tu negocio funcione sin interrupciones."
+          }
+        }
+      }
+    },
     "customSoftware": {
       "hero": {
         "titleLine1": "Construye el futuro",
