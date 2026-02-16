@@ -29,7 +29,7 @@ export function OurWorkProjectsSection() {
   const { path } = useLocale();
 
   return (
-    <section className="bg-muted/40 py-12 md:py-16 lg:py-20">
+    <section className="py-12 md:py-16 lg:py-20">
       <CenterContainer>
         <div className="grid gap-6 sm:grid-cols-2 lg:gap-8">
           {PROJECTS.map((project) => (
@@ -53,7 +53,7 @@ export function OurWorkProjectsSection() {
                       loading="lazy"
                     />
                   </div>
-                  {/* Título y descripción */}
+
                   <div className="flex flex-col gap-2 px-6 py-5 md:px-8 md:py-6">
                     <h3 className="text-foreground text-lg font-bold tracking-tight md:text-xl">
                       {t(`ourWork.projects.${project.id}.title`)}
