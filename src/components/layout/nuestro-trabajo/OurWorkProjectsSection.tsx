@@ -16,12 +16,12 @@ const BADGE_COLORS: Record<CategoryKey, string> = {
 };
 
 const PROJECTS = [
-  { id: 'zenqur', image: 'zenqur.png', categoryKey: 'webApp' as CategoryKey },
+  { id: 'sendero', image: 'sendero.png', categoryKey: 'crm' as CategoryKey },
   { id: 'ebm', image: 'ebm.png', categoryKey: 'platform' as CategoryKey },
   { id: 'digitalRanch', image: 'digital-ranch.png', categoryKey: 'webApp' as CategoryKey },
-  { id: 'cipreses', image: 'cipreses.png', categoryKey: 'website' as CategoryKey },
-  { id: 'sendero', image: 'sendero.png', categoryKey: 'crm' as CategoryKey },
+  { id: 'zenqur', image: 'zenqur.png', categoryKey: 'webApp' as CategoryKey },
   { id: 'easySales', image: 'easy-sales.png', categoryKey: 'ecommerce' as CategoryKey },
+  { id: 'cipreses', image: 'cipreses.png', categoryKey: 'website' as CategoryKey },
 ] as const;
 
 export function OurWorkProjectsSection() {
