@@ -185,8 +185,11 @@
   },
   "notFound": {
     "title": "404 - Page not found | Vado",
-    "heading": "Page not found",
-    "description": "404 — This route does not exist"
+    "code": "404",
+    "titlePart1": "PAGE",
+    "titlePart2": "NOT FOUND",
+    "description": "Sorry, we couldn't find the page you're looking for.",
+    "cta": "Go back home"
   },
   "footer": {
     "stayConnected": "Stay Connected",

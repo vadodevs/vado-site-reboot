@@ -185,8 +185,11 @@
   },
   "notFound": {
     "title": "404 - Página no encontrada | Vado",
-    "heading": "Página no encontrada",
-    "description": "404 — La ruta no existe"
+    "code": "404",
+    "titlePart1": "PÁGINA",
+    "titlePart2": "NO ENCONTRADA",
+    "description": "Lo sentimos, no pudimos encontrar la página que buscas.",
+    "cta": "Volver al inicio"
   },
   "footer": {
     "stayConnected": "Mantente Conectado",
