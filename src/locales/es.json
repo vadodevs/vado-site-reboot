@@ -197,5 +197,53 @@
     "contactHeading": "Contacto",
     "languageHeading": "Idioma",
     "copyright": "Copyright © Vado Devs. {{year}}"
+  },
+  "services": {
+    "customSoftware": {
+      "hero": {
+        "titleLine1": "Construye el futuro",
+        "titleLine2": "con soluciones digitales a la medida",
+        "tagline": "Creamos productos digitales que funcionan como lo necesitas.",
+        "cta": "Empecemos tu proyecto"
+      },
+      "products": {
+        "label": "Nuestros productos",
+        "titlePart1": "Aplicaciones y sistemas",
+        "titlePart2": "personalizados",
+        "description": "Creamos aplicaciones y sistemas que se adaptan 100% a las necesidades de tu negocio, ayudándote a optimizar procesos, ahorrar tiempo y mejorar resultados."
+      },
+      "tabs": {
+        "appsMvps": {
+          "label": "Apps y MVPs",
+          "title": "Apps y MVPs",
+          "description": "Diseñamos y desarrollamos plataformas, aplicaciones móviles, herramientas innovadoras y versiones iniciales de productos (MVPs). Para que pruebes tus ideas rápido y llegues al mercado antes que la competencia."
+        },
+        "sitiosWeb": {
+          "label": "Sitios Web",
+          "title": "Sitios Web",
+          "description": "Creamos sitios web modernos, rápidos y adaptados a todos los dispositivos. Desde landing pages hasta portales corporativos y e-commerce."
+        },
+        "crm": {
+          "label": "CRM",
+          "title": "CRM",
+          "description": "Sistemas de gestión de relaciones con clientes a la medida. Automatiza ventas, seguimiento y reportes para que tu equipo cierre más y mejor."
+        },
+        "digitalizacion": {
+          "label": "Digitalización de Procesos",
+          "title": "Digitalización de Procesos",
+          "description": "Transformamos tus procesos manuales en flujos digitales. Menos papeles, menos errores y más control en tiempo real."
+        },
+        "erp": {
+          "label": "ERP",
+          "title": "ERP",
+          "description": "Sistemas de planificación de recursos empresariales integrados. Inventario, finanzas, compras y operaciones en una sola plataforma."
+        },
+        "metaMensajeria": {
+          "label": "Meta y Mensajería Integradas",
+          "title": "Meta y Mensajería Integradas",
+          "description": "Integramos WhatsApp, Messenger y otros canales en tu operación. Atención al cliente, ventas y notificaciones desde un solo lugar."
+        }
+      }
+    }
   }
 }

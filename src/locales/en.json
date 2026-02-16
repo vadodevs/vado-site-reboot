@@ -197,5 +197,53 @@
     "contactHeading": "Contact",
     "languageHeading": "Language",
     "copyright": "Copyright © Vado Devs. {{year}}"
+  },
+  "services": {
+    "customSoftware": {
+      "hero": {
+        "titleLine1": "Build the future",
+        "titleLine2": "with custom digital solutions",
+        "tagline": "We create digital products that work the way you need them to.",
+        "cta": "Let's start your project"
+      },
+      "products": {
+        "label": "Our products",
+        "titlePart1": "Custom applications and systems",
+        "titlePart2": "tailored to you",
+        "description": "We create applications and systems that adapt 100% to your business needs, helping you optimize processes, save time and improve results."
+      },
+      "tabs": {
+        "appsMvps": {
+          "label": "Apps & MVPs",
+          "title": "Apps & MVPs",
+          "description": "We design and develop platforms, mobile apps, innovative tools and initial product versions (MVPs). So you can test ideas fast and get to market before the competition."
+        },
+        "sitiosWeb": {
+          "label": "Websites",
+          "title": "Websites",
+          "description": "We build modern, fast websites that work on every device. From landing pages to corporate portals and e-commerce."
+        },
+        "crm": {
+          "label": "CRM",
+          "title": "CRM",
+          "description": "Custom CRM systems. Automate sales, follow-up and reporting so your team closes more and better."
+        },
+        "digitalizacion": {
+          "label": "Process Digitalization",
+          "title": "Process Digitalization",
+          "description": "We turn manual processes into digital flows. Less paper, fewer errors and more real-time control."
+        },
+        "erp": {
+          "label": "ERP",
+          "title": "ERP",
+          "description": "Integrated enterprise resource planning. Inventory, finance, purchasing and operations in one platform."
+        },
+        "metaMensajeria": {
+          "label": "Meta & Messaging Integration",
+          "title": "Meta & Messaging Integration",
+          "description": "We integrate WhatsApp, Messenger and other channels into your operations. Customer service, sales and notifications from one place."
+        }
+      }
+    }
   }
 }
