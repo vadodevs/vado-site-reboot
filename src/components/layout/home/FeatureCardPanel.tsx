@@ -27,6 +27,8 @@ type MainPanelProps = BasePanelProps & {
   titlePart1: string;
   titlePart2: string;
   description: string;
+  /** Párrafo adicional opcional (ej. para AI Why Vado) */
+  descriptionPart2?: string;
   primaryButton: FeatureCardPanelButton;
   secondaryButton?: FeatureCardPanelButton;
   /** Solo en servicios: fondo #263e59 y texto claro */
@@ -79,12 +81,18 @@ export function FeatureCardPanel(props: FeatureCardPanelProps) {
     titlePart1,
     titlePart2,
     description,
+    descriptionPart2,
     primaryButton,
     secondaryButton,
     appearance = 'default',
   } = props;
 
   const isDark = appearance === 'darkMain';
+
+  const paragraphClasses = cn(
+    'text-base leading-relaxed md:text-lg',
+    isDark ? 'text-white/95' : 'text-[#19314c]'
+  );
 
   return (
     <div
@@ -126,14 +134,10 @@ export function FeatureCardPanel(props: FeatureCardPanelProps) {
           {titlePart2}
         </span>
       </h2>
-      <p
-        className={cn(
-          'min-h-0 flex-1 text-base leading-relaxed md:text-lg',
-          isDark ? 'text-white/95' : 'text-[#19314c]'
-        )}
-      >
-        {description}
-      </p>
+      <div className="min-h-0 flex-1 flex flex-col gap-3">
+        <p className={paragraphClasses}>{description}</p>
+        {descriptionPart2 && <p className={paragraphClasses}>{descriptionPart2}</p>}
+      </div>
       <div className="mt-2 flex shrink-0 flex-col gap-3 sm:flex-row">
         {secondaryButton && (
           <Button

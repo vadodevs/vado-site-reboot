@@ -16,6 +16,64 @@
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
+  "ourWork": {
+    "hero": {
+      "titleLine1": "FROM CHALLENGE",
+      "titleLine2": "TO RESULT",
+      "tagline": "Discover some of the projects we have developed with our clients, where we combine technology, design and strategy to achieve real results.",
+      "cta": "Contact us"
+    },
+    "projects": {
+      "zenqur": {
+        "category": "Web application",
+        "title": "ZenQR",
+        "subtitle": "Code Generator",
+        "description": "Adaptability (on the other side) We adapt to change and overcome any obstacle."
+      },
+      "ebm": {
+        "category": "Platform",
+        "title": "EBM",
+        "subtitle": "Marine management",
+        "description": "Adaptability (on the other side) We adapt to change and overcome any obstacle."
+      },
+      "digitalRanch": {
+        "category": "Web application",
+        "title": "Digital Ranch",
+        "subtitle": "",
+        "description": "Adaptability (on the other side) We adapt to change and overcome any obstacle."
+      },
+      "cipreses": {
+        "category": "Website",
+        "title": "Criadero Los Cipreses",
+        "subtitle": "",
+        "description": "Adaptability (on the other side) We adapt to change and overcome any obstacle."
+      },
+      "sendero": {
+        "category": "CRM",
+        "title": "Sendero",
+        "subtitle": "",
+        "description": "Adaptability (on the other side) We adapt to change and overcome any obstacle."
+      },
+      "easySales": {
+        "category": "E-commerce",
+        "title": "Easy Sales",
+        "subtitle": "",
+        "description": "Adaptability (on the other side) We adapt to change and overcome any obstacle."
+      },
+      "maggiore": {
+        "category": "Token system",
+        "title": "Maggiore",
+        "subtitle": "",
+        "description": "Token system and digital management."
+      },
+      "washapp": {
+        "category": "Mobile app",
+        "title": "WashApp",
+        "subtitle": "",
+        "description": "On-demand car wash at your location."
+      }
+    }
+  },
   "home": {
     "title": "Vado | Home",
     "heading": "Hello World",
@@ -260,6 +318,46 @@
             "description": "Do more with less effort. Streamline internal processes and reduce manual tasks so your business runs without interruptions."
           }
         }
+      },
+      "process": {
+        "label": "Our process",
+        "title": "How we carry out your AI project",
+        "subtitle": "from idea to impact",
+        "steps": {
+          "step1": {
+            "title": "Discovery and Planning",
+            "description": "We define objectives, scope and requirements together to ensure clarity from the start."
+          },
+          "step2": {
+            "title": "Development",
+            "description": "We design and build AI solutions tailored to you with the latest technologies."
+          },
+          "step3": {
+            "title": "Practical Integration",
+            "description": "We incorporate AI without interrupting your current processes."
+          },
+          "step4": {
+            "title": "Testing and Quality",
+            "description": "We review every detail so your AI solutions are functional, secure and reliable."
+          },
+          "step5": {
+            "title": "Launch and Continuous Support",
+            "description": "We provide continuous post-implementation support and updates to ensure sustained success."
+          }
+        }
+      },
+      "whyVado": {
+        "preHeading": "Why Vado?",
+        "titlePart1": "AI that",
+        "titlePart2": "adapts",
+        "description": "We develop useful artificial intelligence, applicable and aligned with each company's objectives.",
+        "descriptionPart2": "Each development starts with an analysis of your processes and goals. We create models and flows that truly help improve your operation.",
+        "startProject": "Integrate AI",
+        "mainIconAlt": "Partnership and collaboration",
+        "sub1IconAlt": "Adapted AI tools",
+        "sub1Description": "We choose and integrate AI tools that adapt to your industry, data and specific needs.",
+        "sub2IconAlt": "Technical and strategic support",
+        "sub2Description": "From opportunity identification to implementation and continuous improvement, we support you with a technical and strategic team."
       }
     },
     "customSoftware": {
@@ -372,6 +470,58 @@
             "image": ""
           }
         }
+      }
+    },
+    "staffAugmentation": {
+      "hero": {
+        "titleLine1": "Empower your company with",
+        "titleLine2": "reliable developers",
+        "tagline": "Hire the best remote talent from Latin America and strengthen your team to achieve greater milestones.",
+        "cta": "Hire Talent"
+      },
+      "intro": {
+        "label": "STAFF AUGMENTATION",
+        "titlePart1": "Qualified experts to",
+        "titlePart2": "develop your projects",
+        "subheadline": "Strategic Talent for Your Team",
+        "description": "Staff augmentation is a flexible strategy that allows you to add specialized talent to your projects without hiring internally. We adapt the profile to the requirements and objectives of your project.",
+        "cta": "Strengthen your team"
+      },
+      "process": {
+        "label": "OUR PROCESS",
+        "titlePart1": "How does our",
+        "titlePart2": "staff augmentation work?",
+        "steps": {
+          "step1": {
+            "title": "Careful Review",
+            "description": "We analyze each profile in detail to find the ideal candidates for each project."
+          },
+          "step2": {
+            "title": "Skills Test",
+            "description": "We evaluate knowledge and technical skills to ensure that each person adds value from day one."
+          },
+          "step3": {
+            "title": "Cultural Fit",
+            "description": "We conduct in-depth interviews to confirm they share our values and fit with each client's way of working."
+          },
+          "step4": {
+            "title": "Guided Integration",
+            "description": "Once approved, the new talent joins your team efficiently and with Vado's support at all times."
+          }
+        }
+      },
+      "whyVado": {
+        "preHeading": "Why Vado?",
+        "titlePart1": "Specialized talent to",
+        "titlePart2": "achieve results",
+        "description": "We focus on finding the right profile and integrating it into your team.",
+        "descriptionPart2": "We look for talent with proven experience and skills aligned with your project.",
+        "startProject": "Strengthen your team",
+        "mainIconAlt": "Partnership and collaboration",
+        "sub1IconAlt": "Adaptation and integration",
+        "sub1Description": "We adapt to your way of working without interfering with your operation or delaying your processes.",
+        "sub2IconAlt": "Follow-up and monitoring",
+        "sub2Description": "We monitor the performance of assigned talent and stay in contact to adjust whatever is necessary."
       }
     }
   }

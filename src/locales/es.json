@@ -16,6 +16,64 @@
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú"
   },
+  "ourWork": {
+    "hero": {
+      "titleLine1": "DEL RETO AL",
+      "titleLine2": "RESULTADO",
+      "tagline": "Conoce algunos de los proyectos que hemos desarrollado junto a nuestros clientes, donde combinamos tecnología, diseño y estrategia para lograr resultados reales.",
+      "cta": "Contáctanos"
+    },
+    "projects": {
+      "zenqur": {
+        "category": "Aplicación web",
+        "title": "ZenQR",
+        "subtitle": "Generador de Códigos",
+        "description": "Adaptabilidad (del otro lado) Nos ajustamos al cambio y superamos cualquier obstáculo."
+      },
+      "ebm": {
+        "category": "Plataforma",
+        "title": "EBM",
+        "subtitle": "Gestión náutica",
+        "description": "Adaptabilidad (del otro lado) Nos ajustamos al cambio y superamos cualquier obstáculo."
+      },
+      "digitalRanch": {
+        "category": "Aplicación web",
+        "title": "Digital Ranch",
+        "subtitle": "",
+        "description": "Adaptabilidad (del otro lado) Nos ajustamos al cambio y superamos cualquier obstáculo."
+      },
+      "cipreses": {
+        "category": "Sitio web",
+        "title": "Criadero Los Cipreses",
+        "subtitle": "",
+        "description": "Adaptabilidad (del otro lado) Nos ajustamos al cambio y superamos cualquier obstáculo."
+      },
+      "sendero": {
+        "category": "CRM",
+        "title": "Sendero",
+        "subtitle": "",
+        "description": "Adaptabilidad (del otro lado) Nos ajustamos al cambio y superamos cualquier obstáculo."
+      },
+      "easySales": {
+        "category": "E-commerce",
+        "title": "Easy Sales",
+        "subtitle": "",
+        "description": "Adaptabilidad (del otro lado) Nos ajustamos al cambio y superamos cualquier obstáculo."
+      },
+      "maggiore": {
+        "category": "Sistema de tokens",
+        "title": "Maggiore",
+        "subtitle": "",
+        "description": "Sistema de tokens y gestión digital."
+      },
+      "washapp": {
+        "category": "App móvil",
+        "title": "WashApp",
+        "subtitle": "",
+        "description": "Lavado de carros a domicilio."
+      }
+    }
+  },
   "home": {
     "title": "Vado | Home",
     "heading": "Hola Mundo",
@@ -260,6 +318,46 @@
             "description": "Haz más con menos esfuerzo. Agiliza procesos internos y reduce tareas manuales para que tu negocio funcione sin interrupciones."
           }
         }
+      },
+      "process": {
+        "label": "Nuestro proceso",
+        "title": "Así llevamos tu proyecto de IA",
+        "subtitle": "de la idea al impacto",
+        "steps": {
+          "step1": {
+            "title": "Descubrimiento y Planificación",
+            "description": "Definimos juntos objetivos, alcance y requisitos para asegurar claridad desde el principio."
+          },
+          "step2": {
+            "title": "Desarrollo",
+            "description": "Diseñamos y construimos soluciones de IA hechas a tu medida con las últimas tecnologías."
+          },
+          "step3": {
+            "title": "Integración Práctica",
+            "description": "Incorporamos IA sin interrumpir tus procesos actuales."
+          },
+          "step4": {
+            "title": "Pruebas y Calidad",
+            "description": "Revisamos cada detalle para que tus soluciones IA sean funcionales, seguras y confiables."
+          },
+          "step5": {
+            "title": "Lanzamiento y Soporte Continuo",
+            "description": "Proporcionamos soporte continuo post-implementación y actualizaciones para asegurar el éxito sostenido."
+          }
+        }
+      },
+      "whyVado": {
+        "preHeading": "¿Por qué Vado?",
+        "titlePart1": "IA que",
+        "titlePart2": "se adapta",
+        "description": "Desarrollamos inteligencia artificial útil, aplicable y alineada con los objetivos de cada empresa.",
+        "descriptionPart2": "Cada desarrollo parte de un análisis de tus procesos y objetivos. Creamos modelos y flujos que realmente ayudan a mejorar tu operación.",
+        "startProject": "Integrar IA",
+        "mainIconAlt": "Alianza y colaboración",
+        "sub1IconAlt": "Herramientas de IA adaptadas",
+        "sub1Description": "Elegimos e integramos herramientas de IA que se ajustan a tu industria, datos y necesidades específicas.",
+        "sub2IconAlt": "Acompañamiento técnico y estratégico",
+        "sub2Description": "Desde la identificación de oportunidades hasta la implementación y mejora continua, te acompañamos con un equipo técnico y estratégico."
       }
     },
     "customSoftware": {
@@ -372,6 +470,58 @@
             "image": ""
           }
         }
+      }
+    },
+    "staffAugmentation": {
+      "hero": {
+        "titleLine1": "Empodera tu empresa con",
+        "titleLine2": "desarrolladores confiables",
+        "tagline": "Contrata el mejor talento remoto de América Latina y mejora tu equipo para alcanzar mayores hitos.",
+        "cta": "Contratar Talento"
+      },
+      "intro": {
+        "label": "AMPLIACIÓN DE PERSONAL",
+        "titlePart1": "Expertos calificados para",
+        "titlePart2": "desarrollar tus proyectos",
+        "subheadline": "Talento Estratégico para Tu Equipo",
+        "description": "La ampliación de personal es una estrategia flexible que te permite sumar talento especializado a tus proyectos sin necesidad de contratar internamente. Adaptamos el perfil a los requerimientos y objetivos de tu proyecto.",
+        "cta": "Refuerza tu equipo"
+      },
+      "process": {
+        "label": "NUESTRO PROCESO",
+        "titlePart1": "¿Cómo funciona nuestra",
+        "titlePart2": "ampliación de personal?",
+        "steps": {
+          "step1": {
+            "title": "Revisión Cuidadosa",
+            "description": "Analizamos cada perfil con detalle para encontrar a los candidatos ideales para cada proyecto."
+          },
+          "step2": {
+            "title": "Prueba de Habilidades",
+            "description": "Evaluamos conocimientos y capacidades técnicas para asegurarnos de que cada persona aporte valor desde el primer día."
+          },
+          "step3": {
+            "title": "Ajuste Cultural",
+            "description": "Realizamos entrevistas a profundidad para confirmar que compartan nuestros valores y encajen con la forma de trabajar de cada cliente."
+          },
+          "step4": {
+            "title": "Integración Guiada",
+            "description": "Una vez aprobado, el nuevo talento se une a tu equipo de forma eficiente y con el apoyo de Vado en todo momento."
+          }
+        }
+      },
+      "whyVado": {
+        "preHeading": "¿Por qué Vado?",
+        "titlePart1": "Talento especializado para",
+        "titlePart2": "lograr resultados",
+        "description": "Nos enfocamos en encontrar el perfil adecuado e integrarlo a tu equipo.",
+        "descriptionPart2": "Buscamos talento con experiencia comprobada y habilidades alineadas a tu proyecto.",
+        "startProject": "Refuerza tu equipo",
+        "mainIconAlt": "Alianza y colaboración",
+        "sub1IconAlt": "Adaptación e integración",
+        "sub1Description": "Nos adaptamos a tu forma de trabajo sin interferir con tu operación ni retrasar tus procesos.",
+        "sub2IconAlt": "Seguimiento y monitoreo",
+        "sub2Description": "Monitoreamos el desempeño del talento asignado y nos mantenemos en contacto para ajustar lo que sea necesario."
       }
     }
   }
