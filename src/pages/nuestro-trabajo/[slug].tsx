@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { PageTitle } from '@/components/PageTitle';
 import MainLayout from '@/components/layout/MainLayout';
 import { useLocale } from '@/hooks/useLocale';
-import { ProjectCaseStudyZenQR } from '@/components/layout/nuestro-trabajo/ProjectCaseStudyZenQR';
+import { ProjectCaseStudyTemplate } from '@/components/layout/nuestro-trabajo/ProjectCaseStudyTemplate';
+import { getCaseStudyConfig } from '@/components/layout/nuestro-trabajo/caseStudyConfigs';
 
 const KNOWN_SLUGS = [
   'zenqur',
@@ -14,8 +15,6 @@ const KNOWN_SLUGS = [
   'easySales',
 ] as const;
 
-const ZENQR_SLUG = 'zenqur';
-
 export default function NuestroTrabajoProject() {
   const params = useParams<{ slug?: string }>();
   const slug = params?.slug ?? '';
@@ -24,7 +23,7 @@ export default function NuestroTrabajoProject() {
 
   const isValid = KNOWN_SLUGS.includes(slug as (typeof KNOWN_SLUGS)[number]);
   const projectKey = isValid ? (slug as (typeof KNOWN_SLUGS)[number]) : null;
-  const isZenQR = slug === ZENQR_SLUG;
+  const caseStudyConfig = getCaseStudyConfig(slug, t);
 
   return (
     <>
@@ -36,8 +35,8 @@ export default function NuestroTrabajoProject() {
         }
       />
       <MainLayout>
-        {isZenQR ? (
-          <ProjectCaseStudyZenQR />
+        {caseStudyConfig ? (
+          <ProjectCaseStudyTemplate config={caseStudyConfig} />
         ) : (
           <div className="bg-muted/40 py-12 md:py-16">
             <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">

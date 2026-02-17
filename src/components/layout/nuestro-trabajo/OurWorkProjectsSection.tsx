@@ -2,27 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'wouter';
 import { CenterContainer } from '@/components/layout/CenterContainer';
 import { useLocale } from '@/hooks/useLocale';
-
-type CategoryKey = 'webApp' | 'platform' | 'website' | 'crm' | 'ecommerce';
-
-const BADGE_COLOR = 'bg-[#153559]';
-
-const BADGE_COLORS: Record<CategoryKey, string> = {
-  webApp: BADGE_COLOR,
-  platform: BADGE_COLOR,
-  website: BADGE_COLOR,
-  crm: BADGE_COLOR,
-  ecommerce: BADGE_COLOR,
-};
-
-const PROJECTS = [
-  { id: 'sendero', image: 'sendero.png', categoryKey: 'crm' as CategoryKey },
-  { id: 'ebm', image: 'ebm.png', categoryKey: 'platform' as CategoryKey },
-  { id: 'digitalRanch', image: 'digital-ranch.png', categoryKey: 'webApp' as CategoryKey },
-  { id: 'zenqur', image: 'zenqur.png', categoryKey: 'webApp' as CategoryKey },
-  { id: 'easySales', image: 'easy-sales.png', categoryKey: 'ecommerce' as CategoryKey },
-  { id: 'cipreses', image: 'cipreses.png', categoryKey: 'website' as CategoryKey },
-] as const;
+import { OUR_WORK_PROJECTS, BADGE_COLORS } from '@/components/layout/nuestro-trabajo/ourWorkProjects';
 
 export function OurWorkProjectsSection() {
   const { t } = useTranslation();
@@ -32,7 +12,7 @@ export function OurWorkProjectsSection() {
     <section className="py-12 md:py-16 lg:py-20">
       <CenterContainer>
         <div className="grid gap-6 sm:grid-cols-2 lg:gap-8">
-          {PROJECTS.map((project) => (
+          {OUR_WORK_PROJECTS.map((project) => (
             <Link
               key={project.id}
               href={path(`/nuestro-trabajo/${project.id}`)}
@@ -40,7 +20,8 @@ export function OurWorkProjectsSection() {
             >
               <div className="relative">
                 <span
-                  className={`absolute top-[-6px] right-[-6px] z-10 rounded-tr-lg rounded-bl-lg px-3 py-1.5 text-xs font-medium tracking-wide text-white uppercase shadow ${BADGE_COLORS[project.categoryKey]}`}
+                  className={`absolute top-[-6px] right-[-6px] z-10 rounded-tr-lg rounded-bl-lg px-3 py-1.5 text-xs font-medium tracking-wide text-white uppercase shadow ${project.badgeColor ? '' : BADGE_COLORS[project.categoryKey]}`}
+                  style={project.badgeColor ? { backgroundColor: project.badgeColor } : undefined}
                 >
                   {t(`ourWork.projects.${project.id}.category`)}
                 </span>

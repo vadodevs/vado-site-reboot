@@ -3,6 +3,7 @@
 @import "tw-animate-css";
 @import "swiper/css";
 @import "swiper/css/pagination";
+@import "swiper/css/navigation";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -128,6 +129,11 @@
 
 .group\/marquee:hover .marquee-track {
   animation-play-state: paused;
+}
+
+/* Logo EBM: cuando se pasa color, todos los path usan currentColor */
+.ebm-logo-tint path {
+  fill: currentColor;
 }
 
 @layer base {

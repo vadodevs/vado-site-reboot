@@ -59,6 +59,18 @@
         "title": "Easy Sales",
         "subtitle": "",
         "description": "Adaptability (on the other side) We adapt to change and overcome any obstacle."
+      },
+      "maggiore": {
+        "category": "Token system",
+        "title": "Maggiore",
+        "subtitle": "",
+        "description": "Token system and digital management."
+      },
+      "washapp": {
+        "category": "Mobile app",
+        "title": "WashApp",
+        "subtitle": "",
+        "description": "On-demand car wash at your location."
       }
     }
   },

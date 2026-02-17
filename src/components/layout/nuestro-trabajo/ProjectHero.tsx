@@ -20,9 +20,11 @@ export type ProjectHeroProps = {
   /** Enlace y texto del breadcrumb (ej: "← Nuestro trabajo") */
   backHref: string;
   backLabel: React.ReactNode;
-  /** Logo del proyecto (se muestra en blanco con invert) */
-  logoSrc: string;
+  /** Logo del proyecto como imagen (se muestra en blanco con invert). Omitir si usas logoNode. */
+  logoSrc?: string;
   logoAlt: string;
+  /** Logo del proyecto como componente (ej: <SenderoLogo color="white" />). Omitir si usas logoSrc. */
+  logoNode?: React.ReactNode;
   title: string;
   description: string;
   /** CTA opcional (ej: "Visitar sitio web") */
@@ -41,6 +43,7 @@ export function ProjectHero({
   backLabel,
   logoSrc,
   logoAlt,
+  logoNode,
   title,
   description,
   cta,
@@ -80,12 +83,18 @@ export function ProjectHero({
         <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between lg:gap-8">
           {/* Texto a la izquierda */}
           <div className="flex-1 space-y-4 text-left">
-            <div className="flex h-16 w-auto max-w-[180px] items-center md:h-20 md:max-w-[200px]">
-              <img
-                src={logoSrc}
-                alt={logoAlt}
-                className="h-full w-full object-contain object-left brightness-0 invert"
-              />
+            <div className="flex h-16 w-auto max-w-[180px] items-center md:h-20 md:max-w-[200px]" aria-hidden={!!logoNode}>
+              {logoNode ? (
+                <div className="h-full w-full [&_svg]:h-full [&_svg]:w-full [&_svg]:object-contain [&_svg]:object-left">
+                  {logoNode}
+                </div>
+              ) : logoSrc ? (
+                <img
+                  src={logoSrc}
+                  alt={logoAlt}
+                  className="h-full w-full object-contain object-left brightness-0 invert"
+                />
+              ) : null}
             </div>
             <div className="space-y-3">
               <h1 className="text-2xl font-bold tracking-tight text-white md:text-3xl lg:text-4xl">

@@ -59,6 +59,18 @@
         "title": "Easy Sales",
         "subtitle": "",
         "description": "Adaptabilidad (del otro lado) Nos ajustamos al cambio y superamos cualquier obstáculo."
+      },
+      "maggiore": {
+        "category": "Sistema de tokens",
+        "title": "Maggiore",
+        "subtitle": "",
+        "description": "Sistema de tokens y gestión digital."
+      },
+      "washapp": {
+        "category": "App móvil",
+        "title": "WashApp",
+        "subtitle": "",
+        "description": "Lavado de carros a domicilio."
       }
     }
   },
