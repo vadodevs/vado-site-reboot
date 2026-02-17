@@ -1,5 +1,6 @@
 import { Link } from 'wouter';
 import { CenterContainer } from '@/components/layout/CenterContainer';
+import { AppStoreButtons } from '@/components/ui/AppStoreButtons';
 
 const DIAGONAL_CLIP = 'polygon(0 0, 100% 0, 100% 82%, 0 100%)';
 
@@ -8,6 +9,11 @@ export type ProjectHeroCta = {
   label: string;
   ariaLabel?: string;
   icon?: React.ReactNode;
+};
+
+export type ProjectHeroStoreLinks = {
+  appStoreUrl?: string;
+  playStoreUrl?: string;
 };
 
 export type ProjectHeroProps = {
@@ -21,6 +27,8 @@ export type ProjectHeroProps = {
   description: string;
   /** CTA opcional (ej: "Visitar sitio web") */
   cta?: ProjectHeroCta;
+  /** Links a App Store y/o Google Play (opcional) */
+  storeLinks?: ProjectHeroStoreLinks;
   /** Imagen principal del hero (lado derecho, no se corta con el diagonal) */
   heroImageSrc: string;
   heroImageAlt: string;
@@ -36,6 +44,7 @@ export function ProjectHero({
   title,
   description,
   cta,
+  storeLinks,
   heroImageSrc,
   heroImageAlt,
   backgroundColor,
@@ -84,23 +93,32 @@ export function ProjectHero({
               </h1>
               <p className="max-w-xl text-base text-white/90 md:text-lg">{description}</p>
             </div>
-            {cta && (
-              <a
-                href={cta.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-lg border border-white/50 bg-transparent px-4 py-2.5 text-sm font-medium text-white transition-colors hover:border-white/70 hover:bg-white/10 focus-visible:ring-2 focus-visible:ring-white/50 focus-visible:ring-offset-2 focus-visible:outline-none"
-                style={
-                  {
-                    ['--tw-ring-offset-color' as string]: backgroundColor,
-                  } as React.CSSProperties
-                }
-                aria-label={cta.ariaLabel ?? cta.label}
-              >
-                {cta.icon}
-                {cta.label}
-              </a>
-            )}
+            <div className="flex flex-wrap items-center gap-4">
+              {cta && (
+                <a
+                  href={cta.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-lg border border-white/50 bg-transparent px-4 py-2.5 text-sm font-medium text-white transition-colors hover:border-white/70 hover:bg-white/10 focus-visible:ring-2 focus-visible:ring-white/50 focus-visible:ring-offset-2 focus-visible:outline-none"
+                  style={
+                    {
+                      ['--tw-ring-offset-color' as string]: backgroundColor,
+                    } as React.CSSProperties
+                  }
+                  aria-label={cta.ariaLabel ?? cta.label}
+                >
+                  {cta.icon}
+                  {cta.label}
+                </a>
+              )}
+              {storeLinks && (storeLinks.appStoreUrl || storeLinks.playStoreUrl) && (
+                <AppStoreButtons
+                  appStoreUrl={storeLinks.appStoreUrl}
+                  playStoreUrl={storeLinks.playStoreUrl}
+                  variant="dark"
+                />
+              )}
+            </div>
           </div>
           {/* Imagen a la derecha (sin clip, se ve completa) */}
           <div className="flex flex-1 justify-center lg:justify-end">
